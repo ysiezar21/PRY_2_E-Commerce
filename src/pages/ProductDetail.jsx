@@ -183,10 +183,10 @@ export default function ProductDetail() {
           )}
 
           <div className="info-grid">
-            {product.category && (
+            {product.categories && product.categories.length > 0 && (
               <div className="info-item">
                 <span className="info-label">Categoría</span>
-                <span className="info-value">{product.category}</span>
+                <span className="info-value">{product.categories.join(', ')}</span>
               </div>
             )}
             {product.sku && (

@@ -7,7 +7,9 @@
       "description": "AMD Ryzen 3 4100 de la categoría Procesadores. Combina rendimiento confiable con un precio competitivo.",
       "price": 526999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 3 4100",
       "sku": "AMD-RYZEN-3-4100-0001",
@@ -76,7 +78,9 @@
       "description": "Intel Core i7-13700K de la categoría Procesadores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 115999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "Intel",
       "model": "Core i7-13700K",
       "sku": "INT-CORE-I7-13700K-0002",
@@ -145,7 +149,9 @@
       "description": "AMD Ryzen 7 5800X de la categoría Procesadores. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 134999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 7 5800X",
       "sku": "AMD-RYZEN-7-5800X-0003",
@@ -214,7 +220,9 @@
       "description": "Intel Core i7-14700K de la categoría Procesadores. Combina rendimiento confiable con un precio competitivo.",
       "price": 119999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "Intel",
       "model": "Core i7-14700K",
       "sku": "INT-CORE-I7-14700K-0004",
@@ -283,7 +291,9 @@
       "description": "AMD Ryzen 9 7950X3D de la categoría Procesadores. Pensado para setups exigentes con estética moderna.",
       "price": 555999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 9 7950X3D",
       "sku": "AMD-RYZEN-9-7950X3D-0005",
@@ -352,7 +362,9 @@
       "description": "AMD Ryzen 5 7600 de la categoría Procesadores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 319999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 5 7600",
       "sku": "AMD-RYZEN-5-7600-0006",
@@ -421,7 +433,9 @@
       "description": "Intel Core i5-12400F de la categoría Procesadores. Pensado para setups exigentes con estética moderna.",
       "price": 307999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "Intel",
       "model": "Core i5-12400F",
       "sku": "INT-CORE-I5-12400F-0007",
@@ -490,7 +504,9 @@
       "description": "AMD Ryzen 9 5950X de la categoría Procesadores. Pensado para setups exigentes con estética moderna.",
       "price": 618999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 9 5950X",
       "sku": "AMD-RYZEN-9-5950X-0008",
@@ -559,7 +575,9 @@
       "description": "AMD Ryzen 5 5600X de la categoría Procesadores. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 585999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 5 5600X",
       "sku": "AMD-RYZEN-5-5600X-0009",
@@ -628,7 +646,9 @@
       "description": "AMD Ryzen 7 7800X3D de la categoría Procesadores. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 131999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 7 7800X3D",
       "sku": "AMD-RYZEN-7-7800X3D-0010",
@@ -697,7 +717,9 @@
       "description": "AMD Ryzen 5 4500 de la categoría Procesadores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 622999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 5 4500",
       "sku": "AMD-RYZEN-5-4500-0011",
@@ -766,7 +788,9 @@
       "description": "AMD Ryzen 7 7700 de la categoría Procesadores. Combina rendimiento confiable con un precio competitivo.",
       "price": 523999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 7 7700",
       "sku": "AMD-RYZEN-7-7700-0012",
@@ -835,7 +859,9 @@
       "description": "Intel Core i9-14900K de la categoría Procesadores. Combina rendimiento confiable con un precio competitivo.",
       "price": 570999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "Intel",
       "model": "Core i9-14900K",
       "sku": "INT-CORE-I9-14900K-0013",
@@ -904,7 +930,9 @@
       "description": "AMD Ryzen 9 5900X de la categoría Procesadores. Combina rendimiento confiable con un precio competitivo.",
       "price": 248999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 9 5900X",
       "sku": "AMD-RYZEN-9-5900X-0014",
@@ -973,7 +1001,9 @@
       "description": "Intel Core i5-13600K de la categoría Procesadores. Pensado para setups exigentes con estética moderna.",
       "price": 211999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "Intel",
       "model": "Core i5-13600K",
       "sku": "INT-CORE-I5-13600K-0015",
@@ -1042,7 +1072,9 @@
       "description": "AMD Ryzen 9 7900X de la categoría Procesadores. Pensado para setups exigentes con estética moderna.",
       "price": 360999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 9 7900X",
       "sku": "AMD-RYZEN-9-7900X-0016",
@@ -1111,7 +1143,9 @@
       "description": "AMD Ryzen 7 5800X3D de la categoría Procesadores. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 235999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 7 5800X3D",
       "sku": "AMD-RYZEN-7-5800X3D-0017",
@@ -1180,7 +1214,9 @@
       "description": "Intel Core i5-14600K de la categoría Procesadores. Pensado para setups exigentes con estética moderna.",
       "price": 605999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "Intel",
       "model": "Core i5-14600K",
       "sku": "INT-CORE-I5-14600K-0018",
@@ -1249,7 +1285,9 @@
       "description": "AMD Ryzen 7 5700X de la categoría Procesadores. Combina rendimiento confiable con un precio competitivo.",
       "price": 320999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 7 5700X",
       "sku": "AMD-RYZEN-7-5700X-0019",
@@ -1318,7 +1356,9 @@
       "description": "AMD Ryzen 5 5500 de la categoría Procesadores. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 457999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 5 5500",
       "sku": "AMD-RYZEN-5-5500-0020",
@@ -1387,7 +1427,9 @@
       "description": "Intel Core i3-12100F de la categoría Procesadores. Combina rendimiento confiable con un precio competitivo.",
       "price": 188999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "Intel",
       "model": "Core i3-12100F",
       "sku": "INT-CORE-I3-12100F-0021",
@@ -1456,7 +1498,9 @@
       "description": "AMD Ryzen 5 5600 de la categoría Procesadores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 449999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "AMD",
       "model": "Ryzen 5 5600",
       "sku": "AMD-RYZEN-5-5600-0022",
@@ -1525,7 +1569,9 @@
       "description": "Intel Core i9-13900K de la categoría Procesadores. Combina rendimiento confiable con un precio competitivo.",
       "price": 539999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "Intel",
       "model": "Core i9-13900K",
       "sku": "INT-CORE-I9-13900K-0023",
@@ -1594,7 +1640,9 @@
       "description": "Intel Core i7-12700K de la categoría Procesadores. Pensado para setups exigentes con estética moderna.",
       "price": 308999,
       "currency": "CRC",
-      "category": "Procesadores",
+      "categories": [
+        "Procesadores"
+      ],
       "brand": "Intel",
       "model": "Core i7-12700K",
       "sku": "INT-CORE-I7-12700K-0024",
@@ -1663,7 +1711,9 @@
       "description": "ASUS TUF Gaming B760M-Plus WiFi de la categoría Tarjetas Madre. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 266999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASUS",
       "model": "TUF Gaming B760M-Plus WiFi",
       "sku": "ASU-TUF-GAMING-B760M-PLUS-WIFI-0025",
@@ -1728,7 +1778,9 @@
       "description": "ASRock B550M-HDV de la categoría Tarjetas Madre. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 187999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASRock",
       "model": "B550M-HDV",
       "sku": "ASR-B550M-HDV-0026",
@@ -1793,7 +1845,9 @@
       "description": "ASUS TUF Gaming Z790-Plus de la categoría Tarjetas Madre. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 288999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASUS",
       "model": "TUF Gaming Z790-Plus",
       "sku": "ASU-TUF-GAMING-Z790-PLUS-0027",
@@ -1858,7 +1912,9 @@
       "description": "ASUS Prime Z790-P de la categoría Tarjetas Madre. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 263999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASUS",
       "model": "Prime Z790-P",
       "sku": "ASU-PRIME-Z790-P-0028",
@@ -1923,7 +1979,9 @@
       "description": "Gigabyte B650 AORUS Elite AX de la categoría Tarjetas Madre. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 103999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "Gigabyte",
       "model": "B650 AORUS Elite AX",
       "sku": "GIG-B650-AORUS-ELITE-AX-0029",
@@ -1988,7 +2046,9 @@
       "description": "MSI PRO B650M-A WiFi de la categoría Tarjetas Madre. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 373999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "MSI",
       "model": "PRO B650M-A WiFi",
       "sku": "MSI-PRO-B650M-A-WIFI-0030",
@@ -2053,7 +2113,9 @@
       "description": "ASUS ROG Strix Z790-E Gaming de la categoría Tarjetas Madre. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 76999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASUS",
       "model": "ROG Strix Z790-E Gaming",
       "sku": "ASU-ROG-STRIX-Z790-E-GAMING-0031",
@@ -2118,7 +2180,9 @@
       "description": "ASRock Z790 Steel Legend WiFi de la categoría Tarjetas Madre. Pensado para setups exigentes con estética moderna.",
       "price": 246999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASRock",
       "model": "Z790 Steel Legend WiFi",
       "sku": "ASR-Z790-STEEL-LEGEND-WIFI-0032",
@@ -2183,7 +2247,9 @@
       "description": "ASUS Prime B650M-A de la categoría Tarjetas Madre. Pensado para setups exigentes con estética moderna.",
       "price": 269999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASUS",
       "model": "Prime B650M-A",
       "sku": "ASU-PRIME-B650M-A-0033",
@@ -2248,7 +2314,9 @@
       "description": "ASRock B650M Pro RS de la categoría Tarjetas Madre. Combina rendimiento confiable con un precio competitivo.",
       "price": 76999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASRock",
       "model": "B650M Pro RS",
       "sku": "ASR-B650M-PRO-RS-0034",
@@ -2313,7 +2381,9 @@
       "description": "MSI PRO Z790-P WiFi de la categoría Tarjetas Madre. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 278999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "MSI",
       "model": "PRO Z790-P WiFi",
       "sku": "MSI-PRO-Z790-P-WIFI-0035",
@@ -2378,7 +2448,9 @@
       "description": "Gigabyte B760M DS3H AX de la categoría Tarjetas Madre. Pensado para setups exigentes con estética moderna.",
       "price": 287999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "Gigabyte",
       "model": "B760M DS3H AX",
       "sku": "GIG-B760M-DS3H-AX-0036",
@@ -2443,7 +2515,9 @@
       "description": "ASRock B650M-HDV/M.2 de la categoría Tarjetas Madre. Combina rendimiento confiable con un precio competitivo.",
       "price": 312999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASRock",
       "model": "B650M-HDV/M.2",
       "sku": "ASR-B650M-HDV-M-2-0037",
@@ -2508,7 +2582,9 @@
       "description": "ASUS TUF Gaming B650-Plus de la categoría Tarjetas Madre. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 367999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASUS",
       "model": "TUF Gaming B650-Plus",
       "sku": "ASU-TUF-GAMING-B650-PLUS-0038",
@@ -2573,7 +2649,9 @@
       "description": "Gigabyte Z790 AORUS Elite AX de la categoría Tarjetas Madre. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 237999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "Gigabyte",
       "model": "Z790 AORUS Elite AX",
       "sku": "GIG-Z790-AORUS-ELITE-AX-0039",
@@ -2638,7 +2716,9 @@
       "description": "MSI MPG Z790 Carbon WiFi de la categoría Tarjetas Madre. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 294999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "MSI",
       "model": "MPG Z790 Carbon WiFi",
       "sku": "MSI-MPG-Z790-CARBON-WIFI-0040",
@@ -2703,7 +2783,9 @@
       "description": "MSI MAG B760M Mortar WiFi de la categoría Tarjetas Madre. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 72999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "MSI",
       "model": "MAG B760M Mortar WiFi",
       "sku": "MSI-MAG-B760M-MORTAR-WIFI-0041",
@@ -2768,7 +2850,9 @@
       "description": "Gigabyte B650M Gaming X AX de la categoría Tarjetas Madre. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 280999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "Gigabyte",
       "model": "B650M Gaming X AX",
       "sku": "GIG-B650M-GAMING-X-AX-0042",
@@ -2833,7 +2917,9 @@
       "description": "ASRock B760M Steel Legend WiFi de la categoría Tarjetas Madre. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 266999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASRock",
       "model": "B760M Steel Legend WiFi",
       "sku": "ASR-B760M-STEEL-LEGEND-WIFI-0043",
@@ -2898,7 +2984,9 @@
       "description": "MSI MAG B650 Tomahawk WiFi de la categoría Tarjetas Madre. Combina rendimiento confiable con un precio competitivo.",
       "price": 184999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "MSI",
       "model": "MAG B650 Tomahawk WiFi",
       "sku": "MSI-MAG-B650-TOMAHAWK-WIFI-0044",
@@ -2963,7 +3051,9 @@
       "description": "ASUS ROG Strix B650-A Gaming WiFi de la categoría Tarjetas Madre. Combina rendimiento confiable con un precio competitivo.",
       "price": 369999,
       "currency": "CRC",
-      "category": "Tarjetas Madre",
+      "categories": [
+        "Tarjetas Madre"
+      ],
       "brand": "ASUS",
       "model": "ROG Strix B650-A Gaming WiFi",
       "sku": "ASU-ROG-STRIX-B650-A-GAMING-WIFI-0045",
@@ -3028,7 +3118,9 @@
       "description": "G.Skill Ripjaws V 8GB DDR4 de la categoría Memoria RAM. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 157999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "G.Skill",
       "model": "Ripjaws V 8GB DDR4",
       "sku": "G.S-RIPJAWS-V-8GB-DDR4-0046",
@@ -3089,7 +3181,9 @@
       "description": "TeamGroup T-Force Delta RGB 16GB DDR5 de la categoría Memoria RAM. Pensado para setups exigentes con estética moderna.",
       "price": 173999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "TeamGroup",
       "model": "T-Force Delta RGB 16GB DDR5",
       "sku": "TEA-T-FORCE-DELTA-RGB-16GB-DDR5-0047",
@@ -3150,7 +3244,9 @@
       "description": "ADATA XPG Lancer 32GB DDR5 de la categoría Memoria RAM. Combina rendimiento confiable con un precio competitivo.",
       "price": 93999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "ADATA",
       "model": "XPG Lancer 32GB DDR5",
       "sku": "ADA-XPG-LANCER-32GB-DDR5-0048",
@@ -3211,7 +3307,9 @@
       "description": "Kingston FURY Renegade 64GB DDR5 de la categoría Memoria RAM. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 103999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Kingston",
       "model": "FURY Renegade 64GB DDR5",
       "sku": "KIN-FURY-RENEGADE-64GB-DDR5-0049",
@@ -3272,7 +3370,9 @@
       "description": "G.Skill Trident Z5 RGB 16GB DDR5 de la categoría Memoria RAM. Pensado para setups exigentes con estética moderna.",
       "price": 154999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "G.Skill",
       "model": "Trident Z5 RGB 16GB DDR5",
       "sku": "G.S-TRIDENT-Z5-RGB-16GB-DDR5-0050",
@@ -3333,7 +3433,9 @@
       "description": "Crucial Pro 16GB DDR5 de la categoría Memoria RAM. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 166999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Crucial",
       "model": "Pro 16GB DDR5",
       "sku": "CRU-PRO-16GB-DDR5-0051",
@@ -3394,7 +3496,9 @@
       "description": "G.Skill Trident Z5 32GB DDR5 de la categoría Memoria RAM. Combina rendimiento confiable con un precio competitivo.",
       "price": 178999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "G.Skill",
       "model": "Trident Z5 32GB DDR5",
       "sku": "G.S-TRIDENT-Z5-32GB-DDR5-0052",
@@ -3455,7 +3559,9 @@
       "description": "Kingston FURY Beast 16GB DDR4 de la categoría Memoria RAM. Pensado para setups exigentes con estética moderna.",
       "price": 34999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Kingston",
       "model": "FURY Beast 16GB DDR4",
       "sku": "KIN-FURY-BEAST-16GB-DDR4-0053",
@@ -3516,7 +3622,9 @@
       "description": "Samsung 990 EVO Plus 1TB de la categoría Almacenamiento. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 98999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Samsung",
       "model": "990 EVO Plus 1TB",
       "sku": "SAM-990-EVO-PLUS-1TB-0054",
@@ -3577,7 +3685,9 @@
       "description": "Corsair Vengeance LPX 32GB DDR4 de la categoría Memoria RAM. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 164999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Corsair",
       "model": "Vengeance LPX 32GB DDR4",
       "sku": "COR-VENGEANCE-LPX-32GB-DDR4-0055",
@@ -3638,7 +3748,9 @@
       "description": "Corsair Vengeance RGB 32GB DDR5 de la categoría Memoria RAM. Combina rendimiento confiable con un precio competitivo.",
       "price": 159999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Corsair",
       "model": "Vengeance RGB 32GB DDR5",
       "sku": "COR-VENGEANCE-RGB-32GB-DDR5-0056",
@@ -3699,7 +3811,9 @@
       "description": "Crucial Ballistix 32GB DDR4 de la categoría Memoria RAM. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 73999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Crucial",
       "model": "Ballistix 32GB DDR4",
       "sku": "CRU-BALLISTIX-32GB-DDR4-0057",
@@ -3760,7 +3874,9 @@
       "description": "Kingston FURY Renegade 32GB DDR5 de la categoría Memoria RAM. Combina rendimiento confiable con un precio competitivo.",
       "price": 134999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Kingston",
       "model": "FURY Renegade 32GB DDR5",
       "sku": "KIN-FURY-RENEGADE-32GB-DDR5-0058",
@@ -3821,7 +3937,9 @@
       "description": "G.Skill Ripjaws V 16GB DDR4 de la categoría Memoria RAM. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 104999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "G.Skill",
       "model": "Ripjaws V 16GB DDR4",
       "sku": "G.S-RIPJAWS-V-16GB-DDR4-0059",
@@ -3882,7 +4000,9 @@
       "description": "Kingston FURY Beast 16GB DDR5 de la categoría Memoria RAM. Pensado para setups exigentes con estética moderna.",
       "price": 171999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Kingston",
       "model": "FURY Beast 16GB DDR5",
       "sku": "KIN-FURY-BEAST-16GB-DDR5-0060",
@@ -3943,7 +4063,9 @@
       "description": "Crucial Ballistix 8GB DDR4 de la categoría Memoria RAM. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 86999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Crucial",
       "model": "Ballistix 8GB DDR4",
       "sku": "CRU-BALLISTIX-8GB-DDR4-0061",
@@ -4004,7 +4126,9 @@
       "description": "TeamGroup T-Force Delta RGB 16GB DDR5 de la categoría Memoria RAM. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 113999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "TeamGroup",
       "model": "T-Force Delta RGB 16GB DDR5",
       "sku": "TEA-T-FORCE-DELTA-RGB-16GB-DDR5-0062",
@@ -4065,7 +4189,9 @@
       "description": "G.Skill Trident Z5 RGB 64GB DDR5 de la categoría Memoria RAM. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 92999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "G.Skill",
       "model": "Trident Z5 RGB 64GB DDR5",
       "sku": "G.S-TRIDENT-Z5-RGB-64GB-DDR5-0063",
@@ -4126,7 +4252,9 @@
       "description": "G.Skill Trident Z5 64GB DDR5 de la categoría Memoria RAM. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 33999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "G.Skill",
       "model": "Trident Z5 64GB DDR5",
       "sku": "G.S-TRIDENT-Z5-64GB-DDR5-0064",
@@ -4187,7 +4315,9 @@
       "description": "Kingston FURY Beast 32GB DDR4 de la categoría Memoria RAM. Pensado para setups exigentes con estética moderna.",
       "price": 28999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Kingston",
       "model": "FURY Beast 32GB DDR4",
       "sku": "KIN-FURY-BEAST-32GB-DDR4-0065",
@@ -4248,7 +4378,9 @@
       "description": "Crucial Pro 64GB DDR5 de la categoría Memoria RAM. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 124999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Crucial",
       "model": "Pro 64GB DDR5",
       "sku": "CRU-PRO-64GB-DDR5-0066",
@@ -4309,7 +4441,9 @@
       "description": "Zotac GeForce RTX 4060 de la categoría Tarjetas Gráficas. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 986999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "Zotac",
       "model": "GeForce RTX 4060",
       "sku": "ZOT-GEFORCE-RTX-4060-0067",
@@ -4370,7 +4504,9 @@
       "description": "MSI Radeon RX 7900 XT de la categoría Tarjetas Gráficas. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 880999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "MSI",
       "model": "Radeon RX 7900 XT",
       "sku": "MSI-RADEON-RX-7900-XT-0068",
@@ -4431,7 +4567,9 @@
       "description": "ASUS Radeon RX 7700 XT de la categoría Tarjetas Gráficas. Combina rendimiento confiable con un precio competitivo.",
       "price": 606999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "ASUS",
       "model": "Radeon RX 7700 XT",
       "sku": "ASU-RADEON-RX-7700-XT-0069",
@@ -4492,7 +4630,9 @@
       "description": "MSI GeForce RTX 4070 Ti Super de la categoría Tarjetas Gráficas. Pensado para setups exigentes con estética moderna.",
       "price": 457999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "MSI",
       "model": "GeForce RTX 4070 Ti Super",
       "sku": "MSI-GEFORCE-RTX-4070-TI-SUPER-0070",
@@ -4553,7 +4693,9 @@
       "description": "MSI GeForce RTX 4080 de la categoría Tarjetas Gráficas. Combina rendimiento confiable con un precio competitivo.",
       "price": 610999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "MSI",
       "model": "GeForce RTX 4080",
       "sku": "MSI-GEFORCE-RTX-4080-0071",
@@ -4614,7 +4756,9 @@
       "description": "MSI GeForce RTX 4060 Ti de la categoría Tarjetas Gráficas. Combina rendimiento confiable con un precio competitivo.",
       "price": 1038999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "MSI",
       "model": "GeForce RTX 4060 Ti",
       "sku": "MSI-GEFORCE-RTX-4060-TI-0072",
@@ -4675,7 +4819,9 @@
       "description": "PowerColor Radeon RX 6700 XT de la categoría Tarjetas Gráficas. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 493999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "PowerColor",
       "model": "Radeon RX 6700 XT",
       "sku": "POW-RADEON-RX-6700-XT-0073",
@@ -4736,7 +4882,9 @@
       "description": "ASUS GeForce RTX 3050 de la categoría Tarjetas Gráficas. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 191999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "ASUS",
       "model": "GeForce RTX 3050",
       "sku": "ASU-GEFORCE-RTX-3050-0074",
@@ -4797,7 +4945,9 @@
       "description": "Sapphire Radeon RX 6600 de la categoría Tarjetas Gráficas. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 189999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "Sapphire",
       "model": "Radeon RX 6600",
       "sku": "SAP-RADEON-RX-6600-0075",
@@ -4858,7 +5008,9 @@
       "description": "PowerColor Radeon RX 6650 XT de la categoría Tarjetas Gráficas. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 472999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "PowerColor",
       "model": "Radeon RX 6650 XT",
       "sku": "POW-RADEON-RX-6650-XT-0076",
@@ -4919,7 +5071,9 @@
       "description": "ASUS Radeon RX 7600 de la categoría Tarjetas Gráficas. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 1192999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "ASUS",
       "model": "Radeon RX 7600",
       "sku": "ASU-RADEON-RX-7600-0077",
@@ -4980,7 +5134,9 @@
       "description": "ASUS Radeon RX 7600 XT de la categoría Tarjetas Gráficas. Combina rendimiento confiable con un precio competitivo.",
       "price": 1317999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "ASUS",
       "model": "Radeon RX 7600 XT",
       "sku": "ASU-RADEON-RX-7600-XT-0078",
@@ -5041,7 +5197,9 @@
       "description": "ASUS GeForce RTX 4090 de la categoría Tarjetas Gráficas. Combina rendimiento confiable con un precio competitivo.",
       "price": 1178999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "ASUS",
       "model": "GeForce RTX 4090",
       "sku": "ASU-GEFORCE-RTX-4090-0079",
@@ -5102,7 +5260,9 @@
       "description": "Gigabyte GeForce RTX 4070 Ti de la categoría Tarjetas Gráficas. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 997999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "Gigabyte",
       "model": "GeForce RTX 4070 Ti",
       "sku": "GIG-GEFORCE-RTX-4070-TI-0080",
@@ -5163,7 +5323,9 @@
       "description": "MSI GeForce RTX 4080 Super de la categoría Tarjetas Gráficas. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 368999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "MSI",
       "model": "GeForce RTX 4080 Super",
       "sku": "MSI-GEFORCE-RTX-4080-SUPER-0081",
@@ -5224,7 +5386,9 @@
       "description": "Gigabyte GeForce RTX 3060 de la categoría Tarjetas Gráficas. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 1383999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "Gigabyte",
       "model": "GeForce RTX 3060",
       "sku": "GIG-GEFORCE-RTX-3060-0082",
@@ -5285,7 +5449,9 @@
       "description": "PowerColor Radeon RX 7800 XT de la categoría Tarjetas Gráficas. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 419999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "PowerColor",
       "model": "Radeon RX 7800 XT",
       "sku": "POW-RADEON-RX-7800-XT-0083",
@@ -5346,7 +5512,9 @@
       "description": "Zotac GeForce RTX 3060 Ti de la categoría Tarjetas Gráficas. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 495999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "Zotac",
       "model": "GeForce RTX 3060 Ti",
       "sku": "ZOT-GEFORCE-RTX-3060-TI-0084",
@@ -5407,7 +5575,9 @@
       "description": "ASUS GeForce RTX 3070 de la categoría Tarjetas Gráficas. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 1175999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "ASUS",
       "model": "GeForce RTX 3070",
       "sku": "ASU-GEFORCE-RTX-3070-0085",
@@ -5468,7 +5638,9 @@
       "description": "MSI Radeon RX 7900 XTX de la categoría Tarjetas Gráficas. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 1328999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "MSI",
       "model": "Radeon RX 7900 XTX",
       "sku": "MSI-RADEON-RX-7900-XTX-0086",
@@ -5529,7 +5701,9 @@
       "description": "MSI GeForce RTX 4070 de la categoría Tarjetas Gráficas. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 1090999,
       "currency": "CRC",
-      "category": "Tarjetas Gráficas",
+      "categories": [
+        "Tarjetas Gráficas"
+      ],
       "brand": "MSI",
       "model": "GeForce RTX 4070",
       "sku": "MSI-GEFORCE-RTX-4070-0087",
@@ -5590,7 +5764,9 @@
       "description": "Seagate BarraCuda 4TB de la categoría Almacenamiento. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 167999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Seagate",
       "model": "BarraCuda 4TB",
       "sku": "SEA-BARRACUDA-4TB-0088",
@@ -5651,7 +5827,9 @@
       "description": "Kingston FURY Renegade 1TB de la categoría Almacenamiento. Combina rendimiento confiable con un precio competitivo.",
       "price": 30999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Kingston",
       "model": "FURY Renegade 1TB",
       "sku": "KIN-FURY-RENEGADE-1TB-0089",
@@ -5712,7 +5890,9 @@
       "description": "Samsung 970 EVO Plus 500GB de la categoría Almacenamiento. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 208999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Samsung",
       "model": "970 EVO Plus 500GB",
       "sku": "SAM-970-EVO-PLUS-500GB-0090",
@@ -5773,7 +5953,9 @@
       "description": "Kingston A400 240GB de la categoría Almacenamiento. Pensado para setups exigentes con estética moderna.",
       "price": 83999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Kingston",
       "model": "A400 240GB",
       "sku": "KIN-A400-240GB-0091",
@@ -5834,7 +6016,9 @@
       "description": "Seagate FireCuda 530 1TB de la categoría Almacenamiento. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 146999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Seagate",
       "model": "FireCuda 530 1TB",
       "sku": "SEA-FIRECUDA-530-1TB-0092",
@@ -5895,7 +6079,9 @@
       "description": "Samsung 980 PRO 2TB de la categoría Almacenamiento. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 165999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Samsung",
       "model": "980 PRO 2TB",
       "sku": "SAM-980-PRO-2TB-0093",
@@ -5956,7 +6142,9 @@
       "description": "Western Digital Blue 1TB de la categoría Almacenamiento. Pensado para setups exigentes con estética moderna.",
       "price": 202999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Western Digital",
       "model": "Blue 1TB",
       "sku": "WES-BLUE-1TB-0094",
@@ -6017,7 +6205,9 @@
       "description": "Kingston NV2 500GB de la categoría Almacenamiento. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 110999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Kingston",
       "model": "NV2 500GB",
       "sku": "KIN-NV2-500GB-0095",
@@ -6078,7 +6268,9 @@
       "description": "Seagate IronWolf Pro 4TB de la categoría Almacenamiento. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 179999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Seagate",
       "model": "IronWolf Pro 4TB",
       "sku": "SEA-IRONWOLF-PRO-4TB-0096",
@@ -6139,7 +6331,9 @@
       "description": "Samsung 990 PRO 1TB de la categoría Almacenamiento. Pensado para setups exigentes con estética moderna.",
       "price": 112999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Samsung",
       "model": "990 PRO 1TB",
       "sku": "SAM-990-PRO-1TB-0097",
@@ -6200,7 +6394,9 @@
       "description": "Crucial P3 1TB de la categoría Almacenamiento. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 103999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Crucial",
       "model": "P3 1TB",
       "sku": "CRU-P3-1TB-0098",
@@ -6261,7 +6457,9 @@
       "description": "WD Black SN770 500GB de la categoría Almacenamiento. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 64999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Western Digital",
       "model": "Black SN770 500GB",
       "sku": "WES-BLACK-SN770-500GB-0099",
@@ -6322,7 +6520,9 @@
       "description": "Samsung T7 Portable SSD 2TB de la categoría Almacenamiento. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 73999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Samsung",
       "model": "T7 Portable SSD 2TB",
       "sku": "SAM-T7-PORTABLE-SSD-2TB-0100",
@@ -6383,7 +6583,9 @@
       "description": "Western Digital Black 1TB de la categoría Almacenamiento. Pensado para setups exigentes con estética moderna.",
       "price": 173999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Western Digital",
       "model": "Black 1TB",
       "sku": "WES-BLACK-1TB-0101",
@@ -6444,7 +6646,9 @@
       "description": "Samsung 870 EVO 2TB de la categoría Almacenamiento. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 130999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Samsung",
       "model": "870 EVO 2TB",
       "sku": "SAM-870-EVO-2TB-0102",
@@ -6505,7 +6709,9 @@
       "description": "Seagate BarraCuda SSD 500GB de la categoría Almacenamiento. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 142999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Seagate",
       "model": "BarraCuda SSD 500GB",
       "sku": "SEA-BARRACUDA-SSD-500GB-0103",
@@ -6566,7 +6772,9 @@
       "description": "Crucial MX500 1TB de la categoría Almacenamiento. Pensado para setups exigentes con estética moderna.",
       "price": 81999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Crucial",
       "model": "MX500 1TB",
       "sku": "CRU-MX500-1TB-0104",
@@ -6627,7 +6835,9 @@
       "description": "Seagate BarraCuda 2TB de la categoría Almacenamiento. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 201999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Seagate",
       "model": "BarraCuda 2TB",
       "sku": "SEA-BARRACUDA-2TB-0105",
@@ -6688,7 +6898,9 @@
       "description": "Seagate BarraCuda SSD 1TB de la categoría Almacenamiento. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 86999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Seagate",
       "model": "BarraCuda SSD 1TB",
       "sku": "SEA-BARRACUDA-SSD-1TB-0106",
@@ -6749,7 +6961,9 @@
       "description": "Western Digital Blue SN580 2TB de la categoría Almacenamiento. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 151999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Western Digital",
       "model": "Blue SN580 2TB",
       "sku": "WES-BLUE-SN580-2TB-0107",
@@ -6810,7 +7024,9 @@
       "description": "Samsung T7 Portable SSD 1TB de la categoría Almacenamiento. Pensado para setups exigentes con estética moderna.",
       "price": 169999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Samsung",
       "model": "T7 Portable SSD 1TB",
       "sku": "SAM-T7-PORTABLE-SSD-1TB-0108",
@@ -6871,7 +7087,9 @@
       "description": "Western Digital Black 2TB de la categoría Almacenamiento. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 165999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Western Digital",
       "model": "Black 2TB",
       "sku": "WES-BLACK-2TB-0109",
@@ -6932,7 +7150,9 @@
       "description": "Seagate FireCuda 530 2TB de la categoría Almacenamiento. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 82999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Seagate",
       "model": "FireCuda 530 2TB",
       "sku": "SEA-FIRECUDA-530-2TB-0110",
@@ -6993,7 +7213,9 @@
       "description": "Western Digital Black SN850X 1TB de la categoría Almacenamiento. Pensado para setups exigentes con estética moderna.",
       "price": 38999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Western Digital",
       "model": "Black SN850X 1TB",
       "sku": "WES-BLACK-SN850X-1TB-0111",
@@ -7054,7 +7276,9 @@
       "description": "Samsung 970 EVO Plus 2TB de la categoría Almacenamiento. Combina rendimiento confiable con un precio competitivo.",
       "price": 54999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Samsung",
       "model": "970 EVO Plus 2TB",
       "sku": "SAM-970-EVO-PLUS-2TB-0112",
@@ -7115,7 +7339,9 @@
       "description": "Kingston A400 1TB de la categoría Almacenamiento. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 156999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Kingston",
       "model": "A400 1TB",
       "sku": "KIN-A400-1TB-0113",
@@ -7176,7 +7402,9 @@
       "description": "Crucial P3 500GB de la categoría Almacenamiento. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 144999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Crucial",
       "model": "P3 500GB",
       "sku": "CRU-P3-500GB-0114",
@@ -7237,7 +7465,9 @@
       "description": "Samsung 980 PRO 1TB de la categoría Almacenamiento. Combina rendimiento confiable con un precio competitivo.",
       "price": 207999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Samsung",
       "model": "980 PRO 1TB",
       "sku": "SAM-980-PRO-1TB-0115",
@@ -7298,7 +7528,9 @@
       "description": "Corsair Dominator Platinum 32GB DDR5 de la categoría Memoria RAM. Pensado para setups exigentes con estética moderna.",
       "price": 189999,
       "currency": "CRC",
-      "category": "Memoria RAM",
+      "categories": [
+        "Memoria RAM"
+      ],
       "brand": "Corsair",
       "model": "Dominator Platinum 32GB DDR5",
       "sku": "COR-DOMINATOR-PLATINUM-32GB-DDR5-0116",
@@ -7359,7 +7591,9 @@
       "description": "Kingston FURY Renegade 2TB de la categoría Almacenamiento. Combina rendimiento confiable con un precio competitivo.",
       "price": 59999,
       "currency": "CRC",
-      "category": "Almacenamiento",
+      "categories": [
+        "Almacenamiento"
+      ],
       "brand": "Kingston",
       "model": "FURY Renegade 2TB",
       "sku": "KIN-FURY-RENEGADE-2TB-0117",
@@ -7420,7 +7654,9 @@
       "description": "Seasonic Focus GX-650 de la categoría Fuentes de Poder. Combina rendimiento confiable con un precio competitivo.",
       "price": 84999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Seasonic",
       "model": "Focus GX-650",
       "sku": "SEA-FOCUS-GX-650-0118",
@@ -7477,7 +7713,9 @@
       "description": "Seasonic Focus PX-850 de la categoría Fuentes de Poder. Pensado para setups exigentes con estética moderna.",
       "price": 49999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Seasonic",
       "model": "Focus PX-850",
       "sku": "SEA-FOCUS-PX-850-0119",
@@ -7534,7 +7772,9 @@
       "description": "Cooler Master MWE 650 Bronze V2 de la categoría Fuentes de Poder. Pensado para setups exigentes con estética moderna.",
       "price": 139999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Cooler Master",
       "model": "MWE 650 Bronze V2",
       "sku": "COO-MWE-650-BRONZE-V2-0120",
@@ -7591,7 +7831,9 @@
       "description": "Thermaltake Toughpower GF1 750W de la categoría Fuentes de Poder. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 183999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Thermaltake",
       "model": "Toughpower GF1 750W",
       "sku": "THE-TOUGHPOWER-GF1-750W-0121",
@@ -7648,7 +7890,9 @@
       "description": "EVGA SuperNOVA 750 G6 de la categoría Fuentes de Poder. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 232999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "EVGA",
       "model": "SuperNOVA 750 G6",
       "sku": "EVG-SUPERNOVA-750-G6-0122",
@@ -7705,7 +7949,9 @@
       "description": "Cooler Master MWE 750 Gold V2 de la categoría Fuentes de Poder. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 141999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Cooler Master",
       "model": "MWE 750 Gold V2",
       "sku": "COO-MWE-750-GOLD-V2-0123",
@@ -7762,7 +8008,9 @@
       "description": "Corsair CX650M de la categoría Fuentes de Poder. Pensado para setups exigentes con estética moderna.",
       "price": 71999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Corsair",
       "model": "CX650M",
       "sku": "COR-CX650M-0124",
@@ -7819,7 +8067,9 @@
       "description": "EVGA SuperNOVA 650 G6 de la categoría Fuentes de Poder. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 57999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "EVGA",
       "model": "SuperNOVA 650 G6",
       "sku": "EVG-SUPERNOVA-650-G6-0125",
@@ -7876,7 +8126,9 @@
       "description": "Corsair CV650 de la categoría Fuentes de Poder. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 146999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Corsair",
       "model": "CV650",
       "sku": "COR-CV650-0126",
@@ -7933,7 +8185,9 @@
       "description": "Corsair RM850x de la categoría Fuentes de Poder. Combina rendimiento confiable con un precio competitivo.",
       "price": 168999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Corsair",
       "model": "RM850x",
       "sku": "COR-RM850X-0127",
@@ -7990,7 +8244,9 @@
       "description": "Seasonic Focus GX-750 de la categoría Fuentes de Poder. Pensado para setups exigentes con estética moderna.",
       "price": 93999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Seasonic",
       "model": "Focus GX-750",
       "sku": "SEA-FOCUS-GX-750-0128",
@@ -8047,7 +8303,9 @@
       "description": "Corsair RM750 de la categoría Fuentes de Poder. Pensado para setups exigentes con estética moderna.",
       "price": 119999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Corsair",
       "model": "RM750",
       "sku": "COR-RM750-0129",
@@ -8104,7 +8362,9 @@
       "description": "Corsair RM650 de la categoría Fuentes de Poder. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 236999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Corsair",
       "model": "RM650",
       "sku": "COR-RM650-0130",
@@ -8161,7 +8421,9 @@
       "description": "EVGA SuperNOVA 850 G6 de la categoría Fuentes de Poder. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 59999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "EVGA",
       "model": "SuperNOVA 850 G6",
       "sku": "EVG-SUPERNOVA-850-G6-0131",
@@ -8218,7 +8480,9 @@
       "description": "Corsair RM1000x de la categoría Fuentes de Poder. Pensado para setups exigentes con estética moderna.",
       "price": 77999,
       "currency": "CRC",
-      "category": "Fuentes de Poder",
+      "categories": [
+        "Fuentes de Poder"
+      ],
       "brand": "Corsair",
       "model": "RM1000x",
       "sku": "COR-RM1000X-0132",
@@ -8275,7 +8539,9 @@
       "description": "Phanteks Eclipse P400A de la categoría Gabinetes. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 185999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "Phanteks",
       "model": "Eclipse P400A",
       "sku": "PHA-ECLIPSE-P400A-0133",
@@ -8333,7 +8599,9 @@
       "description": "Fractal Design Focus 2 de la categoría Gabinetes. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 86999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "Fractal Design",
       "model": "Focus 2",
       "sku": "FRA-FOCUS-2-0134",
@@ -8391,7 +8659,9 @@
       "description": "Corsair 5000D Airflow de la categoría Gabinetes. Pensado para setups exigentes con estética moderna.",
       "price": 214999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "Corsair",
       "model": "5000D Airflow",
       "sku": "COR-5000D-AIRFLOW-0135",
@@ -8449,7 +8719,9 @@
       "description": "NZXT H510 Flow de la categoría Gabinetes. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 153999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "NZXT",
       "model": "H510 Flow",
       "sku": "NZX-H510-FLOW-0136",
@@ -8507,7 +8779,9 @@
       "description": "Lian Li O11 Dynamic de la categoría Gabinetes. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 196999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "Lian Li",
       "model": "O11 Dynamic",
       "sku": "LIA-O11-DYNAMIC-0137",
@@ -8565,7 +8839,9 @@
       "description": "NZXT H710i de la categoría Gabinetes. Pensado para setups exigentes con estética moderna.",
       "price": 144999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "NZXT",
       "model": "H710i",
       "sku": "NZX-H710I-0138",
@@ -8623,7 +8899,9 @@
       "description": "Fractal Design Meshify 2 de la categoría Gabinetes. Combina rendimiento confiable con un precio competitivo.",
       "price": 91999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "Fractal Design",
       "model": "Meshify 2",
       "sku": "FRA-MESHIFY-2-0139",
@@ -8681,7 +8959,9 @@
       "description": "Lian Li Lancool 216 de la categoría Gabinetes. Pensado para setups exigentes con estética moderna.",
       "price": 203999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "Lian Li",
       "model": "Lancool 216",
       "sku": "LIA-LANCOOL-216-0140",
@@ -8739,7 +9019,9 @@
       "description": "Cooler Master MasterBox NR600 de la categoría Gabinetes. Pensado para setups exigentes con estética moderna.",
       "price": 208999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "Cooler Master",
       "model": "MasterBox NR600",
       "sku": "COO-MASTERBOX-NR600-0141",
@@ -8797,7 +9079,9 @@
       "description": "NZXT H5 Flow de la categoría Gabinetes. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 136999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "NZXT",
       "model": "H5 Flow",
       "sku": "NZX-H5-FLOW-0142",
@@ -8855,7 +9139,9 @@
       "description": "Cooler Master MasterBox TD500 Mesh de la categoría Gabinetes. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 69999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "Cooler Master",
       "model": "MasterBox TD500 Mesh",
       "sku": "COO-MASTERBOX-TD500-MESH-0143",
@@ -8913,7 +9199,9 @@
       "description": "Corsair 4000D Airflow de la categoría Gabinetes. Combina rendimiento confiable con un precio competitivo.",
       "price": 58999,
       "currency": "CRC",
-      "category": "Gabinetes",
+      "categories": [
+        "Gabinetes"
+      ],
       "brand": "Corsair",
       "model": "4000D Airflow",
       "sku": "COR-4000D-AIRFLOW-0144",
@@ -8971,7 +9259,9 @@
       "description": "Samsung Odyssey G5 27\" de la categoría Monitores. Pensado para setups exigentes con estética moderna.",
       "price": 416999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "Samsung",
       "model": "Odyssey G5 27\"",
       "sku": "SAM-ODYSSEY-G5-27-0145",
@@ -9032,7 +9322,9 @@
       "description": "ASUS ROG Strix XG27AQ de la categoría Monitores. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 392999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "ASUS",
       "model": "ROG Strix XG27AQ",
       "sku": "ASU-ROG-STRIX-XG27AQ-0146",
@@ -9093,7 +9385,9 @@
       "description": "AOC C24G1 de la categoría Monitores. Pensado para setups exigentes con estética moderna.",
       "price": 405999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "AOC",
       "model": "C24G1",
       "sku": "AOC-C24G1-0147",
@@ -9154,7 +9448,9 @@
       "description": "Samsung Odyssey G7 27\" de la categoría Monitores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 122999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "Samsung",
       "model": "Odyssey G7 27\"",
       "sku": "SAM-ODYSSEY-G7-27-0148",
@@ -9215,7 +9511,9 @@
       "description": "AOC 24G2 de la categoría Monitores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 541999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "AOC",
       "model": "24G2",
       "sku": "AOC-24G2-0149",
@@ -9276,7 +9574,9 @@
       "description": "LG UltraGear 27GP850 de la categoría Monitores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 386999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "LG",
       "model": "UltraGear 27GP850",
       "sku": "LG-ULTRAGEAR-27GP850-0150",
@@ -9337,7 +9637,9 @@
       "description": "Samsung Odyssey Neo G8 de la categoría Monitores. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 266999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "Samsung",
       "model": "Odyssey Neo G8",
       "sku": "SAM-ODYSSEY-NEO-G8-0151",
@@ -9398,7 +9700,9 @@
       "description": "ASUS TUF Gaming VG249Q de la categoría Monitores. Combina rendimiento confiable con un precio competitivo.",
       "price": 458999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "ASUS",
       "model": "TUF Gaming VG249Q",
       "sku": "ASU-TUF-GAMING-VG249Q-0152",
@@ -9459,7 +9763,9 @@
       "description": "LG 27UP850 de la categoría Monitores. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 328999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "LG",
       "model": "27UP850",
       "sku": "LG-27UP850-0153",
@@ -9520,7 +9826,9 @@
       "description": "ViewSonic VX2418 de la categoría Monitores. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 287999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "ViewSonic",
       "model": "VX2418",
       "sku": "VIE-VX2418-0154",
@@ -9581,7 +9889,9 @@
       "description": "BenQ Zowie XL2546K de la categoría Monitores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 215999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "BenQ",
       "model": "Zowie XL2546K",
       "sku": "BEN-ZOWIE-XL2546K-0155",
@@ -9642,7 +9952,9 @@
       "description": "BenQ Mobiuz EX2710 de la categoría Monitores. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 222999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "BenQ",
       "model": "Mobiuz EX2710",
       "sku": "BEN-MOBIUZ-EX2710-0156",
@@ -9703,7 +10015,9 @@
       "description": "ASUS ROG Swift PG279QM de la categoría Monitores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 633999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "ASUS",
       "model": "ROG Swift PG279QM",
       "sku": "ASU-ROG-SWIFT-PG279QM-0157",
@@ -9764,7 +10078,9 @@
       "description": "ASUS ProArt PA278CV de la categoría Monitores. Combina rendimiento confiable con un precio competitivo.",
       "price": 267999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "ASUS",
       "model": "ProArt PA278CV",
       "sku": "ASU-PROART-PA278CV-0158",
@@ -9825,7 +10141,9 @@
       "description": "ASUS TUF Gaming VG27AQ de la categoría Monitores. Combina rendimiento confiable con un precio competitivo.",
       "price": 579999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "ASUS",
       "model": "TUF Gaming VG27AQ",
       "sku": "ASU-TUF-GAMING-VG27AQ-0159",
@@ -9886,7 +10204,9 @@
       "description": "Dell Alienware AW2723DF de la categoría Monitores. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 274999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "Dell",
       "model": "Alienware AW2723DF",
       "sku": "DEL-ALIENWARE-AW2723DF-0160",
@@ -9947,7 +10267,9 @@
       "description": "ViewSonic Elite XG270QG de la categoría Monitores. Pensado para setups exigentes con estética moderna.",
       "price": 636999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "ViewSonic",
       "model": "Elite XG270QG",
       "sku": "VIE-ELITE-XG270QG-0161",
@@ -10008,7 +10330,9 @@
       "description": "LG UltraGear 27GN800 de la categoría Monitores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 511999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "LG",
       "model": "UltraGear 27GN800",
       "sku": "LG-ULTRAGEAR-27GN800-0162",
@@ -10069,7 +10393,9 @@
       "description": "LG UltraGear 24GN600 de la categoría Monitores. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 537999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "LG",
       "model": "UltraGear 24GN600",
       "sku": "LG-ULTRAGEAR-24GN600-0163",
@@ -10130,7 +10456,9 @@
       "description": "BenQ PD2705Q de la categoría Monitores. Combina rendimiento confiable con un precio competitivo.",
       "price": 315999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "BenQ",
       "model": "PD2705Q",
       "sku": "BEN-PD2705Q-0164",
@@ -10191,7 +10519,9 @@
       "description": "Dell S2721DGF de la categoría Monitores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 550999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "Dell",
       "model": "S2721DGF",
       "sku": "DEL-S2721DGF-0165",
@@ -10252,7 +10582,9 @@
       "description": "AOC Q27G2 de la categoría Monitores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 275999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "AOC",
       "model": "Q27G2",
       "sku": "AOC-Q27G2-0166",
@@ -10313,7 +10645,9 @@
       "description": "Samsung Odyssey G3 24\" de la categoría Monitores. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 646999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "Samsung",
       "model": "Odyssey G3 24\"",
       "sku": "SAM-ODYSSEY-G3-24-0167",
@@ -10374,7 +10708,9 @@
       "description": "Dell UltraSharp U2723QE de la categoría Monitores. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 636999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "Dell",
       "model": "UltraSharp U2723QE",
       "sku": "DEL-ULTRASHARP-U2723QE-0168",
@@ -10435,7 +10771,9 @@
       "description": "LG UltraGear 32GP850 de la categoría Monitores. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 97999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "LG",
       "model": "UltraGear 32GP850",
       "sku": "LG-ULTRAGEAR-32GP850-0169",
@@ -10496,7 +10834,9 @@
       "description": "Dell G2724D de la categoría Monitores. Pensado para setups exigentes con estética moderna.",
       "price": 627999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "Dell",
       "model": "G2724D",
       "sku": "DEL-G2724D-0170",
@@ -10557,7 +10897,9 @@
       "description": "Samsung Odyssey G4 de la categoría Monitores. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 254999,
       "currency": "CRC",
-      "category": "Monitores",
+      "categories": [
+        "Monitores"
+      ],
       "brand": "Samsung",
       "model": "Odyssey G4",
       "sku": "SAM-ODYSSEY-G4-0171",
@@ -10618,7 +10960,9 @@
       "description": "HyperX Alloy Origins Core de la categoría Teclados. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 89999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "HyperX",
       "model": "Alloy Origins Core",
       "sku": "HYP-ALLOY-ORIGINS-CORE-0172",
@@ -10675,7 +11019,9 @@
       "description": "HyperX Alloy FPS Pro de la categoría Teclados. Pensado para setups exigentes con estética moderna.",
       "price": 103999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "HyperX",
       "model": "Alloy FPS Pro",
       "sku": "HYP-ALLOY-FPS-PRO-0173",
@@ -10732,7 +11078,9 @@
       "description": "Logitech G213 Prodigy de la categoría Teclados. Pensado para setups exigentes con estética moderna.",
       "price": 104999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Logitech",
       "model": "G213 Prodigy",
       "sku": "LOG-G213-PRODIGY-0174",
@@ -10789,7 +11137,9 @@
       "description": "Razer BlackWidow V3 Mini de la categoría Teclados. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 140999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Razer",
       "model": "BlackWidow V3 Mini",
       "sku": "RAZ-BLACKWIDOW-V3-MINI-0175",
@@ -10846,7 +11196,9 @@
       "description": "HyperX Alloy Core RGB de la categoría Teclados. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 110999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "HyperX",
       "model": "Alloy Core RGB",
       "sku": "HYP-ALLOY-CORE-RGB-0176",
@@ -10903,7 +11255,9 @@
       "description": "Corsair K65 RGB Mini de la categoría Teclados. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 21999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Corsair",
       "model": "K65 RGB Mini",
       "sku": "COR-K65-RGB-MINI-0177",
@@ -10960,7 +11314,9 @@
       "description": "Logitech G Pro X de la categoría Teclados. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 115999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Logitech",
       "model": "G Pro X",
       "sku": "LOG-G-PRO-X-0178",
@@ -11017,7 +11373,9 @@
       "description": "Corsair K70 RGB Pro de la categoría Teclados. Pensado para setups exigentes con estética moderna.",
       "price": 56999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Corsair",
       "model": "K70 RGB Pro",
       "sku": "COR-K70-RGB-PRO-0179",
@@ -11074,7 +11432,9 @@
       "description": "SteelSeries Apex 3 de la categoría Teclados. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 118999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "SteelSeries",
       "model": "Apex 3",
       "sku": "STE-APEX-3-0180",
@@ -11131,7 +11491,9 @@
       "description": "Logitech G915 de la categoría Teclados. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 38999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Logitech",
       "model": "G915",
       "sku": "LOG-G915-0181",
@@ -11188,7 +11550,9 @@
       "description": "SteelSeries Apex Pro de la categoría Teclados. Pensado para setups exigentes con estética moderna.",
       "price": 84999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "SteelSeries",
       "model": "Apex Pro",
       "sku": "STE-APEX-PRO-0182",
@@ -11245,7 +11609,9 @@
       "description": "ASUS ROG Strix Scope II de la categoría Teclados. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 54999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "ASUS",
       "model": "ROG Strix Scope II",
       "sku": "ASU-ROG-STRIX-SCOPE-II-0183",
@@ -11302,7 +11668,9 @@
       "description": "Razer BlackWidow V4 de la categoría Teclados. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 95999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Razer",
       "model": "BlackWidow V4",
       "sku": "RAZ-BLACKWIDOW-V4-0184",
@@ -11359,7 +11727,9 @@
       "description": "Razer Ornata V3 de la categoría Teclados. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 86999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Razer",
       "model": "Ornata V3",
       "sku": "RAZ-ORNATA-V3-0185",
@@ -11416,7 +11786,9 @@
       "description": "Razer BlackWidow Lite de la categoría Teclados. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 142999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Razer",
       "model": "BlackWidow Lite",
       "sku": "RAZ-BLACKWIDOW-LITE-0186",
@@ -11473,7 +11845,9 @@
       "description": "Razer Cynosa V2 de la categoría Teclados. Combina rendimiento confiable con un precio competitivo.",
       "price": 18999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Razer",
       "model": "Cynosa V2",
       "sku": "RAZ-CYNOSA-V2-0187",
@@ -11530,7 +11904,9 @@
       "description": "Razer Huntsman V2 de la categoría Teclados. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 110999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Razer",
       "model": "Huntsman V2",
       "sku": "RAZ-HUNTSMAN-V2-0188",
@@ -11587,7 +11963,9 @@
       "description": "Logitech G413 de la categoría Teclados. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 37999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Logitech",
       "model": "G413",
       "sku": "LOG-G413-0189",
@@ -11644,7 +12022,9 @@
       "description": "Corsair K100 RGB de la categoría Teclados. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 123999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Corsair",
       "model": "K100 RGB",
       "sku": "COR-K100-RGB-0190",
@@ -11701,7 +12081,9 @@
       "description": "Logitech G913 de la categoría Teclados. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 59999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Logitech",
       "model": "G913",
       "sku": "LOG-G913-0191",
@@ -11758,7 +12140,9 @@
       "description": "Corsair K55 RGB de la categoría Teclados. Pensado para setups exigentes con estética moderna.",
       "price": 26999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Corsair",
       "model": "K55 RGB",
       "sku": "COR-K55-RGB-0192",
@@ -11815,7 +12199,9 @@
       "description": "Corsair K95 RGB Platinum de la categoría Teclados. Pensado para setups exigentes con estética moderna.",
       "price": 22999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Corsair",
       "model": "K95 RGB Platinum",
       "sku": "COR-K95-RGB-PLATINUM-0193",
@@ -11872,7 +12258,9 @@
       "description": "HyperX Alloy Elite 2 de la categoría Teclados. Combina rendimiento confiable con un precio competitivo.",
       "price": 139999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "HyperX",
       "model": "Alloy Elite 2",
       "sku": "HYP-ALLOY-ELITE-2-0194",
@@ -11929,7 +12317,9 @@
       "description": "Logitech MX Keys de la categoría Teclados. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 57999,
       "currency": "CRC",
-      "category": "Teclados",
+      "categories": [
+        "Teclados"
+      ],
       "brand": "Logitech",
       "model": "MX Keys",
       "sku": "LOG-MX-KEYS-0195",
@@ -11986,7 +12376,9 @@
       "description": "ASUS ROG Gladius III de la categoría Mouse. Combina rendimiento confiable con un precio competitivo.",
       "price": 45999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "ASUS",
       "model": "ROG Gladius III",
       "sku": "ASU-ROG-GLADIUS-III-0196",
@@ -12047,7 +12439,9 @@
       "description": "Logitech MX Master 3S de la categoría Mouse. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 30999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Logitech",
       "model": "MX Master 3S",
       "sku": "LOG-MX-MASTER-3S-0197",
@@ -12108,7 +12502,9 @@
       "description": "Razer DeathAdder V3 de la categoría Mouse. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 78999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Razer",
       "model": "DeathAdder V3",
       "sku": "RAZ-DEATHADDER-V3-0198",
@@ -12169,7 +12565,9 @@
       "description": "SteelSeries Aerox 5 de la categoría Mouse. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 77999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "SteelSeries",
       "model": "Aerox 5",
       "sku": "STE-AEROX-5-0199",
@@ -12230,7 +12628,9 @@
       "description": "HyperX Pulsefire Core de la categoría Mouse. Pensado para setups exigentes con estética moderna.",
       "price": 87999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "HyperX",
       "model": "Pulsefire Core",
       "sku": "HYP-PULSEFIRE-CORE-0200",
@@ -12291,7 +12691,9 @@
       "description": "SteelSeries Rival 5 de la categoría Mouse. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 20999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "SteelSeries",
       "model": "Rival 5",
       "sku": "STE-RIVAL-5-0201",
@@ -12352,7 +12754,9 @@
       "description": "Logitech G Pro X Superlight de la categoría Mouse. Combina rendimiento confiable con un precio competitivo.",
       "price": 35999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Logitech",
       "model": "G Pro X Superlight",
       "sku": "LOG-G-PRO-X-SUPERLIGHT-0202",
@@ -12413,7 +12817,9 @@
       "description": "Corsair Ironclaw RGB de la categoría Mouse. Pensado para setups exigentes con estética moderna.",
       "price": 26999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Corsair",
       "model": "Ironclaw RGB",
       "sku": "COR-IRONCLAW-RGB-0203",
@@ -12474,7 +12880,9 @@
       "description": "Logitech G203 de la categoría Mouse. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 29999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Logitech",
       "model": "G203",
       "sku": "LOG-G203-0204",
@@ -12535,7 +12943,9 @@
       "description": "Corsair Harpoon RGB de la categoría Mouse. Pensado para setups exigentes con estética moderna.",
       "price": 86999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Corsair",
       "model": "Harpoon RGB",
       "sku": "COR-HARPOON-RGB-0205",
@@ -12596,7 +13006,9 @@
       "description": "HyperX Pulsefire Haste de la categoría Mouse. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 62999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "HyperX",
       "model": "Pulsefire Haste",
       "sku": "HYP-PULSEFIRE-HASTE-0206",
@@ -12657,7 +13069,9 @@
       "description": "Razer Naga V2 de la categoría Mouse. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 75999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Razer",
       "model": "Naga V2",
       "sku": "RAZ-NAGA-V2-0207",
@@ -12718,7 +13132,9 @@
       "description": "Razer Basilisk V3 de la categoría Mouse. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 55999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Razer",
       "model": "Basilisk V3",
       "sku": "RAZ-BASILISK-V3-0208",
@@ -12779,7 +13195,9 @@
       "description": "SteelSeries Rival 3 de la categoría Mouse. Combina rendimiento confiable con un precio competitivo.",
       "price": 78999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "SteelSeries",
       "model": "Rival 3",
       "sku": "STE-RIVAL-3-0209",
@@ -12840,7 +13258,9 @@
       "description": "SteelSeries Sensei Ten de la categoría Mouse. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 21999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "SteelSeries",
       "model": "Sensei Ten",
       "sku": "STE-SENSEI-TEN-0210",
@@ -12901,7 +13321,9 @@
       "description": "HyperX Pulsefire FPS Pro de la categoría Mouse. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 20999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "HyperX",
       "model": "Pulsefire FPS Pro",
       "sku": "HYP-PULSEFIRE-FPS-PRO-0211",
@@ -12962,7 +13384,9 @@
       "description": "Razer Viper Mini de la categoría Mouse. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 38999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Razer",
       "model": "Viper Mini",
       "sku": "RAZ-VIPER-MINI-0212",
@@ -13023,7 +13447,9 @@
       "description": "Razer Viper V2 Pro de la categoría Mouse. Pensado para setups exigentes con estética moderna.",
       "price": 34999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Razer",
       "model": "Viper V2 Pro",
       "sku": "RAZ-VIPER-V2-PRO-0213",
@@ -13084,7 +13510,9 @@
       "description": "Corsair Katar Pro de la categoría Mouse. Pensado para setups exigentes con estética moderna.",
       "price": 23999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Corsair",
       "model": "Katar Pro",
       "sku": "COR-KATAR-PRO-0214",
@@ -13145,7 +13573,9 @@
       "description": "SteelSeries Aerox 3 de la categoría Mouse. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 85999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "SteelSeries",
       "model": "Aerox 3",
       "sku": "STE-AEROX-3-0215",
@@ -13206,7 +13636,9 @@
       "description": "Logitech G502 Hero de la categoría Mouse. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 43999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Logitech",
       "model": "G502 Hero",
       "sku": "LOG-G502-HERO-0216",
@@ -13267,7 +13699,9 @@
       "description": "Logitech G502 X de la categoría Mouse. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 22999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Logitech",
       "model": "G502 X",
       "sku": "LOG-G502-X-0217",
@@ -13328,7 +13762,9 @@
       "description": "Razer DeathAdder V2 de la categoría Mouse. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 63999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Razer",
       "model": "DeathAdder V2",
       "sku": "RAZ-DEATHADDER-V2-0218",
@@ -13389,7 +13825,9 @@
       "description": "Logitech G305 de la categoría Mouse. Pensado para setups exigentes con estética moderna.",
       "price": 17999,
       "currency": "CRC",
-      "category": "Mouse",
+      "categories": [
+        "Mouse"
+      ],
       "brand": "Logitech",
       "model": "G305",
       "sku": "LOG-G305-0219",
@@ -13450,7 +13888,9 @@
       "description": "SteelSeries Arctis Nova Pro de la categoría Audífonos. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 30999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "SteelSeries",
       "model": "Arctis Nova Pro",
       "sku": "STE-ARCTIS-NOVA-PRO-0220",
@@ -13507,7 +13947,9 @@
       "description": "Logitech G435 de la categoría Audífonos. Pensado para setups exigentes con estética moderna.",
       "price": 110999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "Logitech",
       "model": "G435",
       "sku": "LOG-G435-0221",
@@ -13564,7 +14006,9 @@
       "description": "SteelSeries Arctis 7 de la categoría Audífonos. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 118999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "SteelSeries",
       "model": "Arctis 7",
       "sku": "STE-ARCTIS-7-0222",
@@ -13621,7 +14065,9 @@
       "description": "Razer BlackShark V2 de la categoría Audífonos. Combina rendimiento confiable con un precio competitivo.",
       "price": 64999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "Razer",
       "model": "BlackShark V2",
       "sku": "RAZ-BLACKSHARK-V2-0223",
@@ -13678,7 +14124,9 @@
       "description": "SteelSeries Arctis Nova 3 de la categoría Audífonos. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 108999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "SteelSeries",
       "model": "Arctis Nova 3",
       "sku": "STE-ARCTIS-NOVA-3-0224",
@@ -13735,7 +14183,9 @@
       "description": "HyperX Cloud Stinger de la categoría Audífonos. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 69999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "HyperX",
       "model": "Cloud Stinger",
       "sku": "HYP-CLOUD-STINGER-0225",
@@ -13792,7 +14242,9 @@
       "description": "Logitech G335 de la categoría Audífonos. Combina rendimiento confiable con un precio competitivo.",
       "price": 111999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "Logitech",
       "model": "G335",
       "sku": "LOG-G335-0226",
@@ -13849,7 +14301,9 @@
       "description": "JBL Quantum 200 de la categoría Audífonos. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 128999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "JBL",
       "model": "Quantum 200",
       "sku": "JBL-QUANTUM-200-0227",
@@ -13906,7 +14360,9 @@
       "description": "Sony INZONE H3 de la categoría Audífonos. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 107999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "Sony",
       "model": "INZONE H3",
       "sku": "SON-INZONE-H3-0228",
@@ -13963,7 +14419,9 @@
       "description": "Logitech G733 de la categoría Audífonos. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 23999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "Logitech",
       "model": "G733",
       "sku": "LOG-G733-0229",
@@ -14020,7 +14478,9 @@
       "description": "HyperX Cloud Alpha de la categoría Audífonos. Combina rendimiento confiable con un precio competitivo.",
       "price": 62999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "HyperX",
       "model": "Cloud Alpha",
       "sku": "HYP-CLOUD-ALPHA-0230",
@@ -14077,7 +14537,9 @@
       "description": "SteelSeries Arctis 7+ de la categoría Audífonos. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 48999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "SteelSeries",
       "model": "Arctis 7+",
       "sku": "STE-ARCTIS-7-0231",
@@ -14134,7 +14596,9 @@
       "description": "JBL Quantum 100 de la categoría Audífonos. Combina rendimiento confiable con un precio competitivo.",
       "price": 17999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "JBL",
       "model": "Quantum 100",
       "sku": "JBL-QUANTUM-100-0232",
@@ -14191,7 +14655,9 @@
       "description": "HyperX Cloud Alpha Wireless de la categoría Audífonos. Combina rendimiento confiable con un precio competitivo.",
       "price": 37999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "HyperX",
       "model": "Cloud Alpha Wireless",
       "sku": "HYP-CLOUD-ALPHA-WIRELESS-0233",
@@ -14248,7 +14714,9 @@
       "description": "Corsair HS80 RGB de la categoría Audífonos. Pensado para setups exigentes con estética moderna.",
       "price": 62999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "Corsair",
       "model": "HS80 RGB",
       "sku": "COR-HS80-RGB-0234",
@@ -14305,7 +14773,9 @@
       "description": "JBL Quantum 400 de la categoría Audífonos. Pensado para setups exigentes con estética moderna.",
       "price": 114999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "JBL",
       "model": "Quantum 400",
       "sku": "JBL-QUANTUM-400-0235",
@@ -14362,7 +14832,9 @@
       "description": "ASUS ROG Delta S de la categoría Audífonos. Pensado para setups exigentes con estética moderna.",
       "price": 18999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "ASUS",
       "model": "ROG Delta S",
       "sku": "ASU-ROG-DELTA-S-0236",
@@ -14419,7 +14891,9 @@
       "description": "HyperX Cloud II de la categoría Audífonos. Combina rendimiento confiable con un precio competitivo.",
       "price": 91999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "HyperX",
       "model": "Cloud II",
       "sku": "HYP-CLOUD-II-0237",
@@ -14476,7 +14950,9 @@
       "description": "Razer Kraken V3 de la categoría Audífonos. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 126999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "Razer",
       "model": "Kraken V3",
       "sku": "RAZ-KRAKEN-V3-0238",
@@ -14533,7 +15009,9 @@
       "description": "Corsair HS55 de la categoría Audífonos. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 52999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "Corsair",
       "model": "HS55",
       "sku": "COR-HS55-0239",
@@ -14590,7 +15068,9 @@
       "description": "SteelSeries Arctis 1 de la categoría Audífonos. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 62999,
       "currency": "CRC",
-      "category": "Audífonos",
+      "categories": [
+        "Audífonos"
+      ],
       "brand": "SteelSeries",
       "model": "Arctis 1",
       "sku": "STE-ARCTIS-1-0240",
@@ -14647,7 +15127,9 @@
       "description": "Cougar Armor Titan de la categoría Sillas Gamer. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 279999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "Cougar",
       "model": "Armor Titan",
       "sku": "COU-ARMOR-TITAN-0241",
@@ -14704,7 +15186,9 @@
       "description": "Respawn RSP-110 de la categoría Sillas Gamer. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 421999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "Respawn",
       "model": "RSP-110",
       "sku": "RES-RSP-110-0242",
@@ -14761,7 +15245,9 @@
       "description": "Corsair TC200 de la categoría Sillas Gamer. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 292999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "Corsair",
       "model": "TC200",
       "sku": "COR-TC200-0243",
@@ -14818,7 +15304,9 @@
       "description": "AKRacing Core EX de la categoría Sillas Gamer. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 279999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "AKRacing",
       "model": "Core EX",
       "sku": "AKR-CORE-EX-0244",
@@ -14875,7 +15363,9 @@
       "description": "Razer Iskur de la categoría Sillas Gamer. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 392999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "Razer",
       "model": "Iskur",
       "sku": "RAZ-ISKUR-0245",
@@ -14932,7 +15422,9 @@
       "description": "AKRacing Core SX de la categoría Sillas Gamer. Pensado para setups exigentes con estética moderna.",
       "price": 302999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "AKRacing",
       "model": "Core SX",
       "sku": "AKR-CORE-SX-0246",
@@ -14989,7 +15481,9 @@
       "description": "Noblechairs Hero de la categoría Sillas Gamer. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 219999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "Noblechairs",
       "model": "Hero",
       "sku": "NOB-HERO-0247",
@@ -15046,7 +15540,9 @@
       "description": "DXRacer Formula Series de la categoría Sillas Gamer. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 197999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "DXRacer",
       "model": "Formula Series",
       "sku": "DXR-FORMULA-SERIES-0248",
@@ -15103,7 +15599,9 @@
       "description": "Secretlab Omega de la categoría Sillas Gamer. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 384999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "Secretlab",
       "model": "Omega",
       "sku": "SEC-OMEGA-0249",
@@ -15160,7 +15658,9 @@
       "description": "Secretlab Titan Evo 2022 de la categoría Sillas Gamer. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 162999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "Secretlab",
       "model": "Titan Evo 2022",
       "sku": "SEC-TITAN-EVO-2022-0250",
@@ -15217,7 +15717,9 @@
       "description": "Cougar Armor One de la categoría Sillas Gamer. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 423999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "Cougar",
       "model": "Armor One",
       "sku": "COU-ARMOR-ONE-0251",
@@ -15274,7 +15776,9 @@
       "description": "Corsair TC100 Relaxed de la categoría Sillas Gamer. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 474999,
       "currency": "CRC",
-      "category": "Sillas Gamer",
+      "categories": [
+        "Sillas Gamer"
+      ],
       "brand": "Corsair",
       "model": "TC100 Relaxed",
       "sku": "COR-TC100-RELAXED-0252",
@@ -15331,7 +15835,9 @@
       "description": "Razer Kiyo de la categoría Webcams. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 107999,
       "currency": "CRC",
-      "category": "Webcams",
+      "categories": [
+        "Webcams"
+      ],
       "brand": "Razer",
       "model": "Kiyo",
       "sku": "RAZ-KIYO-0253",
@@ -15388,7 +15894,9 @@
       "description": "Razer Kiyo Pro de la categoría Webcams. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 68999,
       "currency": "CRC",
-      "category": "Webcams",
+      "categories": [
+        "Webcams"
+      ],
       "brand": "Razer",
       "model": "Kiyo Pro",
       "sku": "RAZ-KIYO-PRO-0254",
@@ -15445,7 +15953,9 @@
       "description": "Logitech C920 de la categoría Webcams. Pensado para setups exigentes con estética moderna.",
       "price": 42999,
       "currency": "CRC",
-      "category": "Webcams",
+      "categories": [
+        "Webcams"
+      ],
       "brand": "Logitech",
       "model": "C920",
       "sku": "LOG-C920-0255",
@@ -15502,7 +16012,9 @@
       "description": "Logitech C922 Pro de la categoría Webcams. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 100999,
       "currency": "CRC",
-      "category": "Webcams",
+      "categories": [
+        "Webcams"
+      ],
       "brand": "Logitech",
       "model": "C922 Pro",
       "sku": "LOG-C922-PRO-0256",
@@ -15559,7 +16071,9 @@
       "description": "AVerMedia PW313 de la categoría Webcams. Pensado para setups exigentes con estética moderna.",
       "price": 44999,
       "currency": "CRC",
-      "category": "Webcams",
+      "categories": [
+        "Webcams"
+      ],
       "brand": "AVerMedia",
       "model": "PW313",
       "sku": "AVE-PW313-0257",
@@ -15616,7 +16130,9 @@
       "description": "Logitech StreamCam de la categoría Webcams. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 22999,
       "currency": "CRC",
-      "category": "Webcams",
+      "categories": [
+        "Webcams"
+      ],
       "brand": "Logitech",
       "model": "StreamCam",
       "sku": "LOG-STREAMCAM-0258",
@@ -15673,7 +16189,9 @@
       "description": "Microsoft LifeCam HD-3000 de la categoría Webcams. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 96999,
       "currency": "CRC",
-      "category": "Webcams",
+      "categories": [
+        "Webcams"
+      ],
       "brand": "Microsoft",
       "model": "LifeCam HD-3000",
       "sku": "MIC-LIFECAM-HD-3000-0259",
@@ -15730,7 +16248,9 @@
       "description": "ASUS Webcam C3 de la categoría Webcams. Combina rendimiento confiable con un precio competitivo.",
       "price": 68999,
       "currency": "CRC",
-      "category": "Webcams",
+      "categories": [
+        "Webcams"
+      ],
       "brand": "ASUS",
       "model": "Webcam C3",
       "sku": "ASU-WEBCAM-C3-0260",
@@ -15787,7 +16307,9 @@
       "description": "Logitech Brio 4K de la categoría Webcams. Combina rendimiento confiable con un precio competitivo.",
       "price": 61999,
       "currency": "CRC",
-      "category": "Webcams",
+      "categories": [
+        "Webcams"
+      ],
       "brand": "Logitech",
       "model": "Brio 4K",
       "sku": "LOG-BRIO-4K-0261",
@@ -15844,7 +16366,9 @@
       "description": "Netgear R6700 de la categoría Redes. Combina rendimiento confiable con un precio competitivo.",
       "price": 166999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "Netgear",
       "model": "R6700",
       "sku": "NET-R6700-0262",
@@ -15901,7 +16425,9 @@
       "description": "Netgear Nighthawk AX12 de la categoría Redes. Pensado para setups exigentes con estética moderna.",
       "price": 224999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "Netgear",
       "model": "Nighthawk AX12",
       "sku": "NET-NIGHTHAWK-AX12-0263",
@@ -15958,7 +16484,9 @@
       "description": "TP-Link Deco X20 de la categoría Redes. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 255999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "TP-Link",
       "model": "Deco X20",
       "sku": "TP-LINK-DECO-X20-0264",
@@ -16015,7 +16543,9 @@
       "description": "TP-Link Archer AX55 de la categoría Redes. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 286999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "TP-Link",
       "model": "Archer AX55",
       "sku": "TP-LINK-ARCHER-AX55-0265",
@@ -16072,7 +16602,9 @@
       "description": "ASUS RT-AX82U de la categoría Redes. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 99999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "ASUS",
       "model": "RT-AX82U",
       "sku": "ASU-RT-AX82U-0266",
@@ -16129,7 +16661,9 @@
       "description": "Ubiquiti UniFi 6 Pro de la categoría Redes. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 27999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "Ubiquiti",
       "model": "UniFi 6 Pro",
       "sku": "UBI-UNIFI-6-PRO-0267",
@@ -16186,7 +16720,9 @@
       "description": "Mercusys MR30G de la categoría Redes. Pensado para setups exigentes con estética moderna.",
       "price": 46999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "Mercusys",
       "model": "MR30G",
       "sku": "MER-MR30G-0268",
@@ -16243,7 +16779,9 @@
       "description": "Ubiquiti UniFi 6 Lite de la categoría Redes. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 93999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "Ubiquiti",
       "model": "UniFi 6 Lite",
       "sku": "UBI-UNIFI-6-LITE-0269",
@@ -16300,7 +16838,9 @@
       "description": "D-Link DIR-841 de la categoría Redes. Combina rendimiento confiable con un precio competitivo.",
       "price": 26999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "D-Link",
       "model": "DIR-841",
       "sku": "D-L-DIR-841-0270",
@@ -16357,7 +16897,9 @@
       "description": "Ubiquiti UniFi Switch Flex Mini de la categoría Redes. Combina rendimiento confiable con un precio competitivo.",
       "price": 112999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "Ubiquiti",
       "model": "UniFi Switch Flex Mini",
       "sku": "UBI-UNIFI-SWITCH-FLEX-MINI-0271",
@@ -16414,7 +16956,9 @@
       "description": "TP-Link Archer C6 de la categoría Redes. Combina rendimiento confiable con un precio competitivo.",
       "price": 74999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "TP-Link",
       "model": "Archer C6",
       "sku": "TP-LINK-ARCHER-C6-0272",
@@ -16471,7 +17015,9 @@
       "description": "TP-Link Archer C80 de la categoría Redes. Pensado para setups exigentes con estética moderna.",
       "price": 63999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "TP-Link",
       "model": "Archer C80",
       "sku": "TP-LINK-ARCHER-C80-0273",
@@ -16528,7 +17074,9 @@
       "description": "Linksys EA7500 de la categoría Redes. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 271999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "Linksys",
       "model": "EA7500",
       "sku": "LIN-EA7500-0274",
@@ -16585,7 +17133,9 @@
       "description": "ASUS RT-AC58U de la categoría Redes. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 60999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "ASUS",
       "model": "RT-AC58U",
       "sku": "ASU-RT-AC58U-0275",
@@ -16642,7 +17192,9 @@
       "description": "TP-Link TL-SG105 de la categoría Redes. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 302999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "TP-Link",
       "model": "TL-SG105",
       "sku": "TP-LINK-TL-SG105-0276",
@@ -16699,7 +17251,9 @@
       "description": "TP-Link Archer AX73 de la categoría Redes. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 38999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "TP-Link",
       "model": "Archer AX73",
       "sku": "TP-LINK-ARCHER-AX73-0277",
@@ -16756,7 +17310,9 @@
       "description": "ASUS RT-AX55 de la categoría Redes. Pensado para setups exigentes con estética moderna.",
       "price": 148999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "ASUS",
       "model": "RT-AX55",
       "sku": "ASU-RT-AX55-0278",
@@ -16813,7 +17369,9 @@
       "description": "Netgear GS308 de la categoría Redes. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 302999,
       "currency": "CRC",
-      "category": "Redes",
+      "categories": [
+        "Redes"
+      ],
       "brand": "Netgear",
       "model": "GS308",
       "sku": "NET-GS308-0279",
@@ -16870,7 +17428,9 @@
       "description": "Ugreen USB-C Hub 6-en-1 de la categoría Accesorios. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 41999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Ugreen",
       "model": "USB-C Hub 6-en-1",
       "sku": "UGR-USB-C-HUB-6-EN-1-0280",
@@ -16919,7 +17479,9 @@
       "description": "Logitech Desk Mat Studio Series de la categoría Accesorios. Combina rendimiento confiable con un precio competitivo.",
       "price": 43999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Logitech",
       "model": "Desk Mat Studio Series",
       "sku": "LOG-DESK-MAT-STUDIO-SERIES-0281",
@@ -16968,7 +17530,9 @@
       "description": "Anker Nano Power Bank de la categoría Accesorios. Diseñado para uso intensivo y gaming de alto rendimiento.",
       "price": 18999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Anker",
       "model": "Nano Power Bank",
       "sku": "ANK-NANO-POWER-BANK-0282",
@@ -17017,7 +17581,9 @@
       "description": "Belkin BoostCharge Base Inalámbrica de la categoría Accesorios. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 56999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Belkin",
       "model": "BoostCharge Base Inalámbrica",
       "sku": "BEL-BOOSTCHARGE-BASE-INALAMBRICA-0283",
@@ -17066,7 +17632,9 @@
       "description": "Anker 511 Power Bank de la categoría Accesorios. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 46999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Anker",
       "model": "511 Power Bank",
       "sku": "ANK-511-POWER-BANK-0284",
@@ -17115,7 +17683,9 @@
       "description": "Razer Base de Carga Rápida Universal de la categoría Accesorios. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 20999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Razer",
       "model": "Base de Carga Rápida Universal",
       "sku": "RAZ-BASE-DE-CARGA-RAPIDA-UNIVERSAL-0285",
@@ -17164,7 +17734,9 @@
       "description": "Ugreen Organizador Magnético de Cables de la categoría Accesorios. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 30999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Ugreen",
       "model": "Organizador Magnético de Cables",
       "sku": "UGR-ORGANIZADOR-MAGNETICO-DE-CABLES-0286",
@@ -17213,7 +17785,9 @@
       "description": "Belkin BoostCharge Cargador USB-C de la categoría Accesorios. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 33999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Belkin",
       "model": "BoostCharge Cargador USB-C",
       "sku": "BEL-BOOSTCHARGE-CARGADOR-USB-C-0287",
@@ -17262,7 +17836,9 @@
       "description": "HyperX Pulsefire Mat de la categoría Accesorios. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 60999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "HyperX",
       "model": "Pulsefire Mat",
       "sku": "HYP-PULSEFIRE-MAT-0288",
@@ -17311,7 +17887,9 @@
       "description": "Anker PowerLine+ III Lightning Cable de la categoría Accesorios. Combina rendimiento confiable con un precio competitivo.",
       "price": 19999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Anker",
       "model": "PowerLine+ III Lightning Cable",
       "sku": "ANK-POWERLINE-III-LIGHTNING-CABLE-0289",
@@ -17360,7 +17938,9 @@
       "description": "Rain Design mStand Soporte para Laptop de la categoría Accesorios. Combina rendimiento confiable con un precio competitivo.",
       "price": 38999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Rain Design",
       "model": "mStand Soporte para Laptop",
       "sku": "RAI-MSTAND-SOPORTE-PARA-LAPTOP-0290",
@@ -17409,7 +17989,9 @@
       "description": "Aukey Cargador Omnia de la categoría Accesorios. Pensado para setups exigentes con estética moderna.",
       "price": 35999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Aukey",
       "model": "Cargador Omnia",
       "sku": "AUK-CARGADOR-OMNIA-0291",
@@ -17458,7 +18040,9 @@
       "description": "Vention Cable USB-C a USB-A de la categoría Accesorios. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 24999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Vention",
       "model": "Cable USB-C a USB-A",
       "sku": "VEN-CABLE-USB-C-A-USB-A-0292",
@@ -17507,7 +18091,9 @@
       "description": "SteelSeries QcK Mousepad de la categoría Accesorios. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 7999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "SteelSeries",
       "model": "QcK Mousepad",
       "sku": "STE-QCK-MOUSEPAD-0293",
@@ -17556,7 +18142,9 @@
       "description": "Ugreen Adaptador USB-C a HDMI de la categoría Accesorios. Combina rendimiento confiable con un precio competitivo.",
       "price": 49999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Ugreen",
       "model": "Adaptador USB-C a HDMI",
       "sku": "UGR-ADAPTADOR-USB-C-A-HDMI-0294",
@@ -17605,7 +18193,9 @@
       "description": "Twelve South BookArc de la categoría Accesorios. Pensado para setups exigentes con estética moderna.",
       "price": 49999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Twelve South",
       "model": "BookArc",
       "sku": "TWE-BOOKARC-0295",
@@ -17654,7 +18244,9 @@
       "description": "Razer Goliathus Mousepad de la categoría Accesorios. Pensado para setups exigentes con estética moderna.",
       "price": 55999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Razer",
       "model": "Goliathus Mousepad",
       "sku": "RAZ-GOLIATHUS-MOUSEPAD-0296",
@@ -17703,7 +18295,9 @@
       "description": "Baseus Cargador GaN 65W de la categoría Accesorios. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 32999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Baseus",
       "model": "Cargador GaN 65W",
       "sku": "BAS-CARGADOR-GAN-65W-0297",
@@ -17752,7 +18346,9 @@
       "description": "Corsair MM300 Mousepad de la categoría Accesorios. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 25999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Corsair",
       "model": "MM300 Mousepad",
       "sku": "COR-MM300-MOUSEPAD-0298",
@@ -17801,7 +18397,9 @@
       "description": "Anker PowerLine III USB-C Cable de la categoría Accesorios. Ofrece un balance entre rendimiento y durabilidad.",
       "price": 30999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Anker",
       "model": "PowerLine III USB-C Cable",
       "sku": "ANK-POWERLINE-III-USB-C-CABLE-0299",
@@ -17850,7 +18448,9 @@
       "description": "Ugreen Soporte para Laptop de la categoría Accesorios. Ideal para profesionales y entusiastas de la tecnología.",
       "price": 14999,
       "currency": "CRC",
-      "category": "Accesorios",
+      "categories": [
+        "Accesorios"
+      ],
       "brand": "Ugreen",
       "model": "Soporte para Laptop",
       "sku": "UGR-SOPORTE-PARA-LAPTOP-0300",

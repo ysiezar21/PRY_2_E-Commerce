@@ -121,9 +121,13 @@ export default function ProductDetail() {
 
   return (
     <div className="product-detail-page">
-      <button className="back-button" onClick={handleBack}>
-        ← Volver al catálogo
-      </button>
+      <div className="product-detail-header">
+        <h1>Información del producto</h1>
+        <button className="back-button" onClick={handleBack}>
+          ← Volver al catálogo
+        </button>
+      </div>
+      
 
       {/* Bloque principal: galería a la izquierda, info a la derecha */}
       <div className="product-detail-container">

@@ -18,7 +18,9 @@ export default function CartPage() {
     <div className="cart-page">
       <div className="cart-page__header">
         <h1>Tu carrito</h1>
-        <Link to="/" className="cart-page__back">← Seguir comprando</Link>
+        <button className="back-button" onClick={() => window.history.back()}>
+          ← Seguir comprando
+        </button>
       </div>
 
       <div className="cart-page__content">

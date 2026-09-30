@@ -14,20 +14,22 @@ export const initialCartState = { items: [] };
 export function cartReducer(state, action) {
   switch (action.type) {
     case CART_ACTIONS.ADD_ITEM: {
-      const { id, name, price, image } = action.payload;
+      const { id, name, price, image, stock } = action.payload;
       const exists = state.items.some((item) => item.id === id);
       return {
         items: exists
           ? state.items.map((item) =>
-              item.id === id ? { ...item, quantity: item.quantity + 1 } : item
+              item.id === id && item.quantity < item.stock
+                ? { ...item, quantity: item.quantity + 1 } 
+                : item
             )
-          : [...state.items, { id, name, price, image, quantity: 1 }],
+          : [...state.items, { id, name, price, image, stock, quantity: 1 }],
       };
     }
     case CART_ACTIONS.INCREMENT:
       return {
         items: state.items.map((item) =>
-          item.id === action.payload
+          item.id === action.payload && item.quantity < item.stock
             ? { ...item, quantity: item.quantity + 1 }
             : item
         ),

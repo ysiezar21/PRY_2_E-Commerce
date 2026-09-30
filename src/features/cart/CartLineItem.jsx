@@ -33,6 +33,7 @@ export default function CartLineItem({ item }) {
           type="button"
           className="qty-btn"
           onClick={() => increment(item.id)}
+          disabled={item.quantity >= item.stock}
           aria-label={`Aumentar cantidad de ${item.name}`}
         >
           +

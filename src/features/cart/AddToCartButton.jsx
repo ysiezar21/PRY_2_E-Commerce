@@ -7,19 +7,22 @@ import { useCart } from './CartContext';
  * Se deshabilita si el producto está agotado.
  */
 export default function AddToCartButton({ product, className = '' }) {
-  const { addItem } = useCart();
+  const { addItem, items } = useCart();
   const [added, setAdded] = useState(false);
   const timerRef = useRef(null);
 
   useEffect(() => () => clearTimeout(timerRef.current), []);
 
+  const inCart = items.find((item) => item.id === product.id)?.quantity ?? 0;
+
   const outOfStock = product.stock <= 0;
+  const noMoreStock = !outOfStock && inCart >= product.stock;
 
   const handleClick = (e) => {
     // La tarjeta del catálogo entera es clicable (navega al detalle):
     // sin esto, agregar al carrito también abriría el detalle.
     e.stopPropagation();
-    if (outOfStock) return;
+    if (outOfStock || noMoreStock) return;
 
     addItem(product);
     setAdded(true);
@@ -32,10 +35,10 @@ export default function AddToCartButton({ product, className = '' }) {
       type="button"
       className={`add-to-cart-btn ${added ? 'is-added' : ''} ${className}`}
       onClick={handleClick}
-      disabled={outOfStock}
+      disabled={outOfStock || noMoreStock}
       aria-live="polite"
     >
-      {outOfStock ? 'Agotado' : added ? '✓ Agregado' : 'Agregar al carrito'}
+      {outOfStock ? 'Agotado' : noMoreStock ? '✗ No hay más stock' : added ? '✓ Agregado' : 'Agregar al carrito'}
     </button>
   );
 }

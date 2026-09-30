@@ -20,6 +20,20 @@
     gap 0.2s ease;
 }
 
+.product-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.product-detail-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
 /* Hover: borde morado, texto morado, fondo muy sutil, flecha se separa */
 .back-button:hover {
   border-color: #5b2eff;

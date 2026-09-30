@@ -14,6 +14,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { searchClient, indexName } from '../config/algolia';
 import productsData from '../../data/products.json';
+import AddToCartButton from '../features/cart/AddToCartButton';
 
 // Formatea un número como colón costarricense sin decimales.
 const formatCRC = (value) =>
@@ -120,9 +121,13 @@ export default function ProductDetail() {
 
   return (
     <div className="product-detail-page">
-      <button className="back-button" onClick={handleBack}>
-        ← Volver al catálogo
-      </button>
+      <div className="product-detail-header">
+        <h1>Información del producto</h1>
+        <button className="back-button" onClick={handleBack}>
+          ← Volver al catálogo
+        </button>
+      </div>
+      
 
       {/* Bloque principal: galería a la izquierda, info a la derecha */}
       <div className="product-detail-container">
@@ -166,6 +171,9 @@ export default function ProductDetail() {
               </span>
             </div>
           </div>
+
+          <AddToCartButton product={product} className="add-to-cart-btn--large" />
+
 
           {product.rating && (
             <div className="rating-section">

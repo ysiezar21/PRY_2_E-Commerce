@@ -8,6 +8,7 @@
 
 import { useNavigate } from 'react-router-dom';
 import { useInstantSearch } from 'react-instantsearch';
+import AddToCartButton from '../../cart/AddToCartButton';
 
 // Formatea un número como colón costarricense sin decimales.
 const formatCRC = (value) =>
@@ -49,6 +50,7 @@ const ProductCard = ({ hit }) => {
         <h3>{hit.name}</h3>
         <p className="category">{getCategoryLabel(hit)}</p>
         <p className="price">{formatCRC(hit.price)}</p>
+        <AddToCartButton product={hit} />
       </div>
     </div>
   );

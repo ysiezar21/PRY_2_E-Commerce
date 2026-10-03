@@ -4,6 +4,6 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/PRY-1-E-Commerce/',
+  base: '/PRY_2_E-Commerce/',
   build: { outDir: 'docs' }
 })

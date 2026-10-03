@@ -1,0 +1,53 @@
+.cart-indicator {
+  position: absolute; /* .App-header ya es position: relative */
+  top: 16px;
+  right: 24px;
+  z-index: 2; /* por encima de los halos decorativos del header */
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  transition: background 0.18s ease, border-color 0.18s ease;
+}
+
+.cart-indicator:hover {
+  background: rgba(91, 46, 255, 0.35);
+  border-color: #5b2eff;
+}
+
+.cart-indicator:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.cart-indicator__count {
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #5b2eff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .cart-indicator {
+    top: 10px;
+    right: 12px;
+    padding: 6px 10px;
+  }
+
+  /* Deja espacio arriba para que el ícono no tape el título */
+  .App-header {
+    padding-top: 60px;
+  }
+}

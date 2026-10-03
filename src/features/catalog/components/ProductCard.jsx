@@ -8,6 +8,7 @@
 
 import { useNavigate } from 'react-router-dom';
 import { useInstantSearch } from 'react-instantsearch';
+import AddToCartButton from '../../cart/AddToCartButton';
 
 // Formatea un número como colón costarricense sin decimales.
 const formatCRC = (value) =>
@@ -17,8 +18,8 @@ const formatCRC = (value) =>
     maximumFractionDigits: 0,
   }).format(value ?? 0);
 
-// Algunos productos traen `categories` (array) y otros `category` (string).
-// Normaliza ambos casos a un texto para mostrar.
+// `categories` es un arreglo; se normaliza a un texto para mostrar en la tarjeta.
+// Se mantiene el respaldo con `category` por si algún hit viejo aún lo trae.
 const getCategoryLabel = (hit) => {
   if (Array.isArray(hit.categories) && hit.categories.length > 0) {
     return hit.categories.join(', ');
@@ -49,6 +50,7 @@ const ProductCard = ({ hit }) => {
         <h3>{hit.name}</h3>
         <p className="category">{getCategoryLabel(hit)}</p>
         <p className="price">{formatCRC(hit.price)}</p>
+        <AddToCartButton product={hit} />
       </div>
     </div>
   );

@@ -11,7 +11,8 @@
 /* Layout general del catálogo */
 import './catalog.css';
 import './components/Header.css';
-
+import './components/AddToCartButton.css';
+import './components/CartIndicator.css';
 /* Componentes del catálogo */
 import './components/SearchBar.css';
 import './components/FiltersSidebar.css';
@@ -22,5 +23,6 @@ import './components/Pagination.css';
 
 /* Páginas */
 import './pages/ProductDetail.css';
+import './pages/CartPage.css';
 
 export default {};

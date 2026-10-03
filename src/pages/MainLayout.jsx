@@ -12,6 +12,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "../components/Header";
 import CatalogPage from "../features/catalog/CatalogPage";
 import ProductDetail from "./ProductDetail";
+import CartPage from "./CartPage";
 
 export default function MainLayout() {
   return (
@@ -20,6 +21,7 @@ export default function MainLayout() {
       <Routes>
         <Route path="/" element={<CatalogPage />} />
         <Route path="/producto/:id" element={<ProductDetail />} />
+        <Route path="/carrito" element={<CartPage />} />
       </Routes>
     </div>
   );

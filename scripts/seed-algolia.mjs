@@ -85,8 +85,8 @@ try {
   // Configura qué atributos se pueden filtrar, dónde se busca el texto
   // y cómo se ordenan los resultados por defecto.
   await index.setSettings({
-    attributesForFaceting: ['category', 'brand', 'price', 'b2b_info.bulk_discount', 'sedes_disponibles'],
-    searchableAttributes: ['name', 'model', 'description', 'brand', 'category'],
+    attributesForFaceting: ['categories', 'brand', 'price', 'b2b_info.bulk_discount', 'sedes_disponibles'],
+    searchableAttributes: ['name', 'model', 'description', 'brand', 'categories'],
     customRanking: ['desc(rating)', 'desc(reviews)'],
   });
 

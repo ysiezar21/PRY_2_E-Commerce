@@ -126,7 +126,6 @@
   }
 }
 
-/* Ajuste fino para pantallas muy estrechas */
 @media (max-width: 480px) {
   .product-info h3 {
     min-height: auto;

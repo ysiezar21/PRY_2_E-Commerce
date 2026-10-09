@@ -1,14 +1,9 @@
 .cart-indicator {
-  position: absolute; /* .App-header ya es position: relative */
-  top: 16px;
-  right: 24px;
-  z-index: 2; /* por encima de los halos decorativos del header */
   display: inline-flex;
   align-items: center;
   gap: 8px;
   padding: 8px 14px;
   color: #fff;
-  text-decoration: none;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
@@ -31,7 +26,6 @@
   min-width: 22px;
   height: 22px;
   padding: 0 6px;
-  box-sizing: border-box;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -41,15 +35,8 @@
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .cart-indicator {
-    top: 10px;
-    right: 12px;
     padding: 6px 10px;
-  }
-
-  /* Deja espacio arriba para que el ícono no tape el título */
-  .App-header {
-    padding-top: 60px;
   }
 }

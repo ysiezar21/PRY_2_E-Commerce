@@ -1,12 +1,14 @@
 /**
- * Encabezado principal de la aplicación.
- * Muestra el título del catálogo y el indicador del carrito con la
- * cantidad total de unidades; al hacer clic abre el menú lateral (CartDrawer).
- * Los estilos viven en styles/components/Header.css (.App-header) y CartIndicator.css.
+ * Navbar principal: logo (enlace al catálogo), búsqueda de Algolia
+ * e indicador del carrito, que abre el menú lateral (CartDrawer).
+ * Estilos en styles/components/Header.css y CartIndicator.css.
  */
 import { useState, useCallback } from 'react';
+import { Link } from 'react-router-dom';
 import { useCart } from '../features/cart/CartContext';
 import CartDrawer from '../features/cart/CartDrawer';
+import SearchBar from '../features/catalog/components/SearchBar';
+import logo from '../assets/techgrid-logo.png';
 
 export default function Header() {
   const { totalItems } = useCart();
@@ -17,32 +19,45 @@ export default function Header() {
   return (
     <>
       <header className="App-header">
-        <button
-          type="button"
-          className="cart-indicator"
-          onClick={() => setDrawerOpen(true)}
-          aria-label={`Abrir carrito, ${totalItems} ${totalItems === 1 ? 'unidad' : 'unidades'}`}
-        >
-          <svg
-            width="22"
-            height="22"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            aria-hidden="true"
+        <div className="navbar">
+          <Link to="/" className="navbar__brand" aria-label="TechGrid Distributions, ir al catálogo">
+            <img
+              src={logo}
+              alt="TechGrid Distributions"
+              className="navbar__logo"
+            />
+          </Link>
+
+          <div className="navbar__search">
+            <SearchBar />
+          </div>
+
+          <button
+            type="button"
+            className="cart-indicator"
+            onClick={() => setDrawerOpen(true)}
+            aria-label={`Abrir carrito, ${totalItems} ${totalItems === 1 ? 'unidad' : 'unidades'}`}
           >
-            <circle cx="9" cy="21" r="1" />
-            <circle cx="20" cy="21" r="1" />
-            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
-          </svg>
-          <span className="cart-indicator__count">
-            {totalItems > 99 ? '99+' : totalItems}
-          </span>
-        </button>
-        <h1>Catálogo de Productos</h1>
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="9" cy="21" r="1" />
+              <circle cx="20" cy="21" r="1" />
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+            </svg>
+            <span className="cart-indicator__count">
+              {totalItems > 99 ? '99+' : totalItems}
+            </span>
+          </button>
+        </div>
       </header>
 
       {/* Fuera del <header> para no heredar sus estilos */}

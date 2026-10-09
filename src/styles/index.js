@@ -5,6 +5,7 @@ import './components/Header.css';
 import './components/AddToCartButton.css';
 import './components/CartIndicator.css';
 import './components/CartDrawer.css';
+import './components/ConfirmDialog.css';
 
 import './components/SearchBar.css';
 import './components/FiltersSidebar.css';

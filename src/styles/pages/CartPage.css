@@ -273,6 +273,10 @@
     grid-area: actions;
   }
 
+  .cart-line__remove {
+    justify-self: end;
+  }
+
   .cart-line__subtotal {
     text-align: left;
   }

@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import { useCart } from './CartContext';
 import { getLineSubtotal } from './cartCalculations';
 import { formatCRC } from './formatCurrency';
+import ConfirmDialog from '../../components/ConfirmDialog';
 
 export default function CartLineItem({ item }) {
   const { increment, decrement, removeItem } = useCart();
+  const [confirming, setConfirming] = useState(false);
 
   return (
     <li className="cart-line">
@@ -45,11 +48,18 @@ export default function CartLineItem({ item }) {
       <button
         type="button"
         className="cart-line__remove"
-        onClick={() => removeItem(item.id)}
+        onClick={() => setConfirming(true)}
         aria-label={`Eliminar ${item.name} del carrito`}
       >
         Eliminar
       </button>
+
+      <ConfirmDialog
+        open={confirming}
+        message={`¿Seguro que deseas eliminar "${item.name}" del carrito?`}
+        onConfirm={() => removeItem(item.id)}
+        onCancel={() => setConfirming(false)}
+      />
     </li>
   );
 }

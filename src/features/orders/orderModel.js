@@ -1,0 +1,71 @@
+import { getLineSubtotal } from '../cart/cartCalculations';
+
+// Estado de la orden y estado del pago son cosas distintas:
+// la orden dice si la compra quedó cerrada, el pago dice qué pasó con el cobro.
+export const ORDER_STATUS = {
+  PENDING: 'PENDING',
+  CONFIRMED: 'CONFIRMED',
+  FAILED: 'FAILED',
+};
+
+export const PAYMENT_STATUS = {
+  PENDING: 'PENDING',
+  APPROVED: 'APPROVED',
+  DECLINED: 'DECLINED',
+  ERROR: 'ERROR',
+};
+
+export const CURRENCY = 'CRC';
+
+// Sin letras ni números que se confundan entre sí (0/O, 1/I)
+const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+
+// Formato: ORD-20261012-A7K2Q9
+export function generateOrderNumber(date = new Date()) {
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const day = String(date.getDate()).padStart(2, '0');
+
+  let code = '';
+  for (let i = 0; i < 6; i += 1) {
+    code += CODE_CHARS[Math.floor(Math.random() * CODE_CHARS.length)];
+  }
+
+  return `ORD-${year}${month}${day}-${code}`;
+}
+
+// Construye la orden con una copia de los datos del carrito y del formulario.
+// Nace pendiente: el estado cambia cuando llega el resultado del pago.
+export function createOrder({ buyer, items, summary }) {
+  const now = new Date();
+
+  return {
+    orderNumber: generateOrderNumber(now),
+    date: now.toISOString(),
+    currency: CURRENCY,
+    buyer: {
+      fullName: buyer.fullName.trim(),
+      email: buyer.email.trim(),
+      phone: buyer.phone.trim(),
+    },
+    delivery: {
+      province: buyer.province,
+      canton: buyer.canton,
+      address: buyer.address.trim(),
+      notes: buyer.notes.trim(),
+    },
+    items: items.map((item) => ({
+      id: item.id,
+      name: item.name,
+      quantity: item.quantity,
+      unitPrice: item.price,
+      subtotal: getLineSubtotal(item),
+    })),
+    subtotal: summary.subtotal,
+    iva: summary.iva,
+    shippingCost: summary.shipping,
+    total: summary.total,
+    orderStatus: ORDER_STATUS.PENDING,
+    paymentStatus: PAYMENT_STATUS.PENDING,
+  };
+}

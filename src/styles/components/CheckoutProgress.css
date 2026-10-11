@@ -1,0 +1,67 @@
+/* ===== Indicador de etapas del checkout ===== */
+
+.checkout-progress {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  margin: 0 0 24px;
+  padding: 0;
+}
+
+.checkout-progress__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  padding: 10px 14px;
+  background: #fff;
+  border: 1.5px solid #e5e4e7;
+  border-radius: 10px;
+  color: #6b6b73;
+  font-size: 14px;
+}
+
+.checkout-progress__number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #f2f2f5;
+  font-weight: 700;
+}
+
+/* Paso actual */
+.checkout-progress__item--current {
+  border-color: #5b2eff;
+  background: rgba(91, 46, 255, 0.06);
+  color: #5b2eff;
+  font-weight: 600;
+}
+
+.checkout-progress__item--current .checkout-progress__number {
+  background: #5b2eff;
+  color: #fff;
+}
+
+/* Pasos ya completados */
+.checkout-progress__item--done .checkout-progress__number {
+  background: #1f9d55;
+  color: #fff;
+}
+
+/* ===== Responsive ===== */
+
+/* En pantallas angostas solo se muestra el nombre del paso actual */
+@media (max-width: 600px) {
+  .checkout-progress__item {
+    padding: 8px 10px;
+  }
+
+  .checkout-progress__item:not(.checkout-progress__item--current) .checkout-progress__label {
+    display: none;
+  }
+}

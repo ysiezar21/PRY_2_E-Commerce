@@ -3,8 +3,8 @@
  *
  * Solo se puede entrar con al menos un producto en el carrito;
  * si está vacío se muestra el mismo estado vacío del carrito.
- * Muestra el formulario de comprador y entrega junto al resumen
- * de la compra; la revisión y el pago se agregan en las siguientes partes.
+ * Paso 1: formulario de comprador y entrega junto al resumen del carrito.
+ * Paso 2: revisión final de la compra. El pago se agrega en las siguientes partes.
  */
 
 import { useState } from 'react';
@@ -14,6 +14,7 @@ import { getCartSummary } from '../features/cart/cartCalculations';
 import CartSummary from '../features/cart/CartSummary';
 import CartEmptyState from '../features/cart/CartEmptyState';
 import CheckoutForm from '../features/checkout/CheckoutForm';
+import OrderReview from '../features/checkout/OrderReview';
 
 const EMPTY_FORM = {
   fullName: '',
@@ -29,13 +30,13 @@ export default function CheckoutPage() {
   const { items } = useCart();
   const navigate = useNavigate();
   const [form, setForm] = useState(EMPTY_FORM);
-  const [dataReady, setDataReady] = useState(false);
+  const [reviewing, setReviewing] = useState(false);
 
   if (items.length === 0) {
     return <CartEmptyState />;
   }
 
-  const { subtotal, iva, shipping, total } = getCartSummary(items);
+  const summary = getCartSummary(items);
 
   return (
     <div className="checkout-page">
@@ -46,21 +47,19 @@ export default function CheckoutPage() {
         </button>
       </div>
 
-      <div className="checkout-page__content">
-        {dataReady ? (
-          <section className="checkout-ready">
-            <h2>Datos listos</h2>
-            <p>La revisión de la orden y el pago se agregan en la siguiente parte.</p>
-            <button className="back-button" onClick={() => setDataReady(false)}>
-              ← Editar datos
-            </button>
-          </section>
-        ) : (
-          <CheckoutForm values={form} onChange={setForm} onSubmit={() => setDataReady(true)} />
-        )}
-
-        <CartSummary subtotal={subtotal} iva={iva} shipping={shipping} total={total} />
-      </div>
+      {reviewing ? (
+        <OrderReview
+          items={items}
+          buyer={form}
+          summary={summary}
+          onEdit={() => setReviewing(false)}
+        />
+      ) : (
+        <div className="checkout-page__content">
+          <CheckoutForm values={form} onChange={setForm} onSubmit={() => setReviewing(true)} />
+          <CartSummary {...summary} />
+        </div>
+      )}
     </div>
   );
 }

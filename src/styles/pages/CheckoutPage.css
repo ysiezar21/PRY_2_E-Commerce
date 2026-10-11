@@ -152,16 +152,103 @@
   outline-offset: 2px;
 }
 
-/* Mensaje temporal mientras se agrega la revisión de la orden */
-.checkout-ready {
-  padding: 20px;
+/* ===== Revisión de la compra ===== */
+
+.order-review {
+  padding: 24px;
   background: #fff;
   border: 1px solid #e5e5ea;
   border-radius: 10px;
 }
 
-.checkout-ready h2 {
-  margin: 0 0 8px;
+.order-review > h2 {
+  margin: 0 0 20px;
+  font-size: 22px;
+}
+
+.order-review__block {
+  margin-bottom: 24px;
+}
+
+.order-review__block h3 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+/* Permite deslizar la tabla en pantallas angostas */
+.order-review__table-wrapper {
+  overflow-x: auto;
+}
+
+.order-review__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.order-review__table th,
+.order-review__table td {
+  padding: 10px 8px;
+  text-align: right;
+  border-bottom: 1px solid #f0f0f3;
+}
+
+.order-review__table th:first-child,
+.order-review__table td:first-child {
+  text-align: left;
+}
+
+.order-review__table th {
+  font-weight: 600;
+  color: #6b6b73;
+}
+
+.order-review__totals {
+  max-width: 360px;
+  margin: 0 0 0 auto;
+}
+
+.order-review__row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f0f3;
+}
+
+.order-review__row dt,
+.order-review__row dd {
+  margin: 0;
+}
+
+.order-review__row--total {
+  border-bottom: none;
+  padding-top: 14px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.order-review__columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.order-review__data {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 16px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.order-review__data dt {
+  color: #6b6b73;
+}
+
+.order-review__data dd {
+  margin: 0;
+  overflow-wrap: anywhere;
 }
 
 /* ===== Responsive ===== */
@@ -171,7 +258,12 @@
     grid-template-columns: 1fr;
   }
 
-  .checkout-form__row {
+  .checkout-form__row,
+  .order-review__columns {
     grid-template-columns: 1fr;
+  }
+
+  .order-review__totals {
+    max-width: none;
   }
 }

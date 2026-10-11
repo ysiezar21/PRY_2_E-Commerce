@@ -1,6 +1,6 @@
 import { formatCRC } from './formatCurrency';
 
-export default function CartSummary({ subtotal, iva, shipping, total }) {
+export default function CartSummary({ subtotal, iva, shipping, total, children }) {
   return (
     <aside className="cart-summary">
       <h2>Resumen de compra</h2>
@@ -22,6 +22,7 @@ export default function CartSummary({ subtotal, iva, shipping, total }) {
           <dd>{formatCRC(total)}</dd>
         </div>
       </dl>
+      {children}
     </aside>
   );
 }

@@ -17,3 +17,4 @@ import './components/Pagination.css';
 
 import './pages/ProductDetail.css';
 import './pages/CartPage.css';
+import './pages/CheckoutPage.css';

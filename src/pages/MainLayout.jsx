@@ -8,6 +8,7 @@
  *   - "/"              → catálogo con filtros y paginación.
  *   - "/producto/:id"  → detalle de un producto.
  *   - "/carrito"       → carrito de compras.
+ *   - "/checkout"      → proceso de compra.
  */
 
 import { Routes, Route } from "react-router-dom";
@@ -18,6 +19,7 @@ import Footer from "../components/Footer";
 import CatalogPage from "../features/catalog/CatalogPage";
 import ProductDetail from "./ProductDetail";
 import CartPage from "./CartPage";
+import CheckoutPage from "./CheckoutPage";
 
 export default function MainLayout() {
   return (
@@ -29,6 +31,7 @@ export default function MainLayout() {
             <Route path="/" element={<CatalogPage />} />
             <Route path="/producto/:id" element={<ProductDetail />} />
             <Route path="/carrito" element={<CartPage />} />
+            <Route path="/checkout" element={<CheckoutPage />} />
           </Routes>
         </main>
         <Footer />

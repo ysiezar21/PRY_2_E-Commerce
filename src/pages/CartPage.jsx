@@ -30,7 +30,11 @@ export default function CartPage() {
           ))}
         </ul>
 
-        <CartSummary subtotal={subtotal} iva={iva} shipping={shipping} total={total} />
+        <CartSummary subtotal={subtotal} iva={iva} shipping={shipping} total={total}>
+          <Link to="/checkout" className="cart-summary__checkout">
+            Proceder al pago
+          </Link>
+        </CartSummary>
       </div>
     </div>
   );

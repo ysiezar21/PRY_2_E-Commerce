@@ -15,6 +15,7 @@ import { getCartSummary } from '../features/cart/cartCalculations';
 import CartSummary from '../features/cart/CartSummary';
 import CartEmptyState from '../features/cart/CartEmptyState';
 import CheckoutForm from '../features/checkout/CheckoutForm';
+import CheckoutProgress from '../features/checkout/CheckoutProgress';
 import OrderReview from '../features/checkout/OrderReview';
 import { createOrder } from '../features/orders/orderModel';
 import { saveOrder } from '../features/orders/orderStorage';
@@ -71,6 +72,8 @@ export default function CheckoutPage() {
           ← Volver al carrito
         </button>
       </div>
+
+      <CheckoutProgress current={reviewing ? 2 : 1} />
 
       {reviewing ? (
         <OrderReview

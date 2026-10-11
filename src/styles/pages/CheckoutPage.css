@@ -19,3 +19,159 @@
   margin: 0;
   font-size: 28px;
 }
+
+.checkout-page__content {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 24px;
+  align-items: start;
+}
+
+/* ===== Formulario ===== */
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.checkout-form__section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0;
+  padding: 20px;
+  min-width: 0; /* evita que los campos desborden el contenedor */
+  background: #fff;
+  border: 1px solid #e5e5ea;
+  border-radius: 10px;
+}
+
+.checkout-form__section legend {
+  padding: 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.checkout-form__row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.checkout-form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.checkout-form__field label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.checkout-form__optional {
+  font-weight: 400;
+  color: #6b6b73;
+}
+
+.checkout-form__field input,
+.checkout-form__field select,
+.checkout-form__field textarea {
+  width: 100%;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1.5px solid #e5e4e7;
+  border-radius: 8px;
+  color: inherit;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+.checkout-form__field textarea {
+  resize: vertical;
+}
+
+.checkout-form__field input:focus,
+.checkout-form__field select:focus,
+.checkout-form__field textarea:focus {
+  outline: 2px solid #5b2eff;
+  outline-offset: 1px;
+  border-color: #5b2eff;
+}
+
+.checkout-form__field select:disabled {
+  background: #f2f2f5;
+  cursor: not-allowed;
+}
+
+/* ===== Validaciones ===== */
+
+.checkout-form__field input[aria-invalid='true'],
+.checkout-form__field select[aria-invalid='true'],
+.checkout-form__field textarea[aria-invalid='true'] {
+  border-color: #d92d20;
+}
+
+.checkout-form__error {
+  margin: 0;
+  font-size: 13px;
+  color: #d92d20;
+}
+
+/* Aviso general sobre el botón cuando hay errores */
+.checkout-form__alert {
+  margin: 0;
+  padding: 12px 16px;
+  background: #fef3f2;
+  border: 1px solid #fda29b;
+  border-radius: 8px;
+  color: #b42318;
+  font-size: 14px;
+}
+
+.checkout-form__submit {
+  padding: 12px;
+  background: #5b2eff;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.checkout-form__submit:hover {
+  background: #4a22d9;
+}
+
+.checkout-form__submit:focus-visible {
+  outline: 2px solid #5b2eff;
+  outline-offset: 2px;
+}
+
+/* Mensaje temporal mientras se agrega la revisión de la orden */
+.checkout-ready {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #e5e5ea;
+  border-radius: 10px;
+}
+
+.checkout-ready h2 {
+  margin: 0 0 8px;
+}
+
+/* ===== Responsive ===== */
+
+@media (max-width: 768px) {
+  .checkout-page__content {
+    grid-template-columns: 1fr;
+  }
+
+  .checkout-form__row {
+    grid-template-columns: 1fr;
+  }
+}

@@ -14,7 +14,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { usePagination, useStats } from 'react-instantsearch';
-import { useSearchParams, useLocation } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 
 const Pagination = () => {
   // pages: números de página visibles (con padding: 2 alrededor de la actual)
@@ -23,7 +23,6 @@ const Pagination = () => {
     usePagination({ padding: 2 });
   const { nbPages } = useStats();
   const [searchParams, setSearchParams] = useSearchParams();
-  const location = useLocation();
 
   // Se pone a true tras la carga inicial, cuando ya se sincronizaron
   // URL y Algolia. Hasta entonces los efectos no deben escribir en la URL.

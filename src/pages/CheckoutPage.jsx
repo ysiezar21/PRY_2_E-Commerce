@@ -43,10 +43,16 @@ export default function CheckoutPage() {
 
   const summary = getCartSummary(items);
 
+  const goToReview = (value) => {
+    setReviewing(value);
+    window.scrollTo(0, 0);
+  };
+
   const handleConfirm = () => {
     const newOrder = createOrder({ buyer: form, items, summary });
     saveOrder(newOrder);
     setOrder(newOrder);
+    window.scrollTo(0, 0);
   };
 
   // Mensaje temporal hasta agregar el pago y la pantalla de confirmación
@@ -80,12 +86,12 @@ export default function CheckoutPage() {
           items={items}
           buyer={form}
           summary={summary}
-          onEdit={() => setReviewing(false)}
+          onEdit={() => goToReview(false)}
           onConfirm={handleConfirm}
         />
       ) : (
         <div className="checkout-page__content">
-          <CheckoutForm values={form} onChange={setForm} onSubmit={() => setReviewing(true)} />
+          <CheckoutForm values={form} onChange={setForm} onSubmit={() => goToReview(true)} />
           <CartSummary {...summary} />
         </div>
       )}

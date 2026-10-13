@@ -1,4 +1,5 @@
 import { getLineSubtotal } from '../cart/cartCalculations';
+import { PAYMENT_RESULTS } from '../../services/paymentSandbox';
 
 // Estado de la orden y estado del pago son cosas distintas:
 // la orden dice si la compra quedó cerrada, el pago dice qué pasó con el cobro.
@@ -70,5 +71,26 @@ export function createOrder({ buyer, items, summary }) {
     total: roundMoney(summary.total),
     orderStatus: ORDER_STATUS.PENDING,
     paymentStatus: PAYMENT_STATUS.PENDING,
+    paymentAttempts: [],
   };
+}
+
+// Actualiza la orden según la respuesta del sandbox y registra el intento.
+// Si el servicio falla, la orden sigue pendiente porque no hubo respuesta del cobro.
+export function applyPaymentResult(order, response) {
+  const attempt = {
+    transactionId: response.transactionId ?? null,
+    status: response.status,
+    message: response.message,
+    timestamp: response.timestamp ?? new Date().toISOString(),
+  };
+  const updated = { ...order, paymentAttempts: [...order.paymentAttempts, attempt] };
+
+  if (response.status === PAYMENT_RESULTS.APPROVED) {
+    return { ...updated, orderStatus: ORDER_STATUS.CONFIRMED, paymentStatus: PAYMENT_STATUS.APPROVED };
+  }
+  if (response.status === PAYMENT_RESULTS.DECLINED) {
+    return { ...updated, orderStatus: ORDER_STATUS.FAILED, paymentStatus: PAYMENT_STATUS.DECLINED };
+  }
+  return { ...updated, orderStatus: ORDER_STATUS.PENDING, paymentStatus: PAYMENT_STATUS.ERROR };
 }

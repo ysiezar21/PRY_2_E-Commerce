@@ -17,6 +17,9 @@ export const PAYMENT_STATUS = {
 
 export const CURRENCY = 'CRC';
 
+// Evita errores de decimales al multiplicar
+const roundMoney = (value) => Math.round(value * 100) / 100;
+
 // Sin letras ni números que se confundan entre sí (0/O, 1/I)
 const CODE_CHARS = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 
@@ -59,12 +62,12 @@ export function createOrder({ buyer, items, summary }) {
       name: item.name,
       quantity: item.quantity,
       unitPrice: item.price,
-      subtotal: getLineSubtotal(item),
+      subtotal: roundMoney(getLineSubtotal(item)),
     })),
-    subtotal: summary.subtotal,
-    iva: summary.iva,
-    shippingCost: summary.shipping,
-    total: summary.total,
+    subtotal: roundMoney(summary.subtotal),
+    iva: roundMoney(summary.iva),
+    shippingCost: roundMoney(summary.shipping),
+    total: roundMoney(summary.total),
     orderStatus: ORDER_STATUS.PENDING,
     paymentStatus: PAYMENT_STATUS.PENDING,
   };

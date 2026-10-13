@@ -4,8 +4,8 @@
  * Solo se puede entrar con al menos un producto en el carrito;
  * si está vacío se muestra el mismo estado vacío del carrito.
  * Paso 1: formulario de comprador y entrega junto al resumen del carrito.
- * Paso 2: revisión final de la compra; al confirmar se crea la orden.
- * El pago se agrega en las siguientes partes.
+ * Paso 2: revisión final y pago con el servicio Sandbox.
+ * Paso 3: confirmación, solo si el pago fue aprobado.
  */
 
 import { useState } from 'react';
@@ -17,8 +17,11 @@ import CartEmptyState from '../features/cart/CartEmptyState';
 import CheckoutForm from '../features/checkout/CheckoutForm';
 import CheckoutProgress from '../features/checkout/CheckoutProgress';
 import OrderReview from '../features/checkout/OrderReview';
-import { createOrder } from '../features/orders/orderModel';
-import { saveOrder } from '../features/orders/orderStorage';
+import PaymentSection, { PaymentAlert } from '../features/checkout/PaymentSection';
+import OrderConfirmation from '../features/checkout/OrderConfirmation';
+import { createOrder, ORDER_STATUS } from '../features/orders/orderModel';
+import { payOrder } from '../features/orders/payOrder';
+import { PAYMENT_RESULTS } from '../services/paymentSandbox';
 
 const EMPTY_FORM = {
   fullName: '',
@@ -31,11 +34,23 @@ const EMPTY_FORM = {
 };
 
 export default function CheckoutPage() {
-  const { items } = useCart();
+  const { items, clearCart } = useCart();
   const navigate = useNavigate();
   const [form, setForm] = useState(EMPTY_FORM);
   const [reviewing, setReviewing] = useState(false);
   const [order, setOrder] = useState(null);
+  const [scenario, setScenario] = useState(PAYMENT_RESULTS.APPROVED);
+  const [processing, setProcessing] = useState(false);
+
+  // Va antes del chequeo de carrito vacío: al aprobarse el pago, el carrito se vacía
+  if (order?.orderStatus === ORDER_STATUS.CONFIRMED) {
+    return (
+      <div className="checkout-page">
+        <CheckoutProgress current={3} />
+        <OrderConfirmation order={order} onContinue={() => navigate('/')} />
+      </div>
+    );
+  }
 
   if (items.length === 0) {
     return <CartEmptyState />;
@@ -44,42 +59,38 @@ export default function CheckoutPage() {
   const summary = getCartSummary(items);
 
   const goToReview = (value) => {
+    // Si cambian los datos, el próximo pago crea una orden nueva
+    if (!value) setOrder(null);
     setReviewing(value);
     window.scrollTo(0, 0);
   };
 
-  const handleConfirm = () => {
-    const newOrder = createOrder({ buyer: form, items, summary });
-    saveOrder(newOrder);
-    setOrder(newOrder);
+  const handlePay = async () => {
+    if (processing) return;
+    setProcessing(true);
+
+    // Al reintentar se usa la misma orden
+    const currentOrder = order ?? createOrder({ buyer: form, items, summary });
+    const updated = await payOrder(currentOrder, scenario);
+
+    setOrder(updated);
+    setProcessing(false);
+    if (updated.orderStatus === ORDER_STATUS.CONFIRMED) clearCart();
     window.scrollTo(0, 0);
   };
-
-  // Mensaje temporal hasta agregar el pago y la pantalla de confirmación
-  if (order) {
-    return (
-      <div className="checkout-page">
-        <section className="order-review">
-          <h2>Orden creada</h2>
-          <p>Número de orden: {order.orderNumber}</p>
-          <p>Estado de la orden: {order.orderStatus}</p>
-          <p>Estado del pago: {order.paymentStatus}</p>
-          <p>El pago se agrega en la siguiente parte.</p>
-        </section>
-      </div>
-    );
-  }
 
   return (
     <div className="checkout-page">
       <div className="checkout-page__header">
         <h1>Finalizar compra</h1>
-        <button className="back-button" onClick={() => navigate('/carrito')}>
+        <button className="back-button" onClick={() => navigate('/carrito')} disabled={processing}>
           ← Volver al carrito
         </button>
       </div>
 
       <CheckoutProgress current={reviewing ? 2 : 1} />
+
+      {reviewing && !processing && <PaymentAlert order={order} />}
 
       {reviewing ? (
         <OrderReview
@@ -87,8 +98,17 @@ export default function CheckoutPage() {
           buyer={form}
           summary={summary}
           onEdit={() => goToReview(false)}
-          onConfirm={handleConfirm}
-        />
+          editDisabled={processing}
+        >
+          <PaymentSection
+            scenario={scenario}
+            onScenarioChange={setScenario}
+            total={summary.total}
+            order={order}
+            processing={processing}
+            onPay={handlePay}
+          />
+        </OrderReview>
       ) : (
         <div className="checkout-page__content">
           <CheckoutForm values={form} onChange={setForm} onSubmit={() => goToReview(true)} />

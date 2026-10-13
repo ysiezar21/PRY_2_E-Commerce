@@ -3,12 +3,12 @@ import { formatCRC } from '../cart/formatCurrency';
 
 // Resumen final de la compra: productos, datos del comprador y entrega, y totales.
 // Los valores vienen del carrito, aquí no se recalcula nada.
-export default function OrderReview({ items, buyer, summary, onEdit, onConfirm }) {
+export default function OrderReview({ items, buyer, summary, onEdit, editDisabled, children }) {
   const { subtotal, iva, shipping, total } = summary;
 
   return (
     <section className="order-review">
-      <button className="back-button" onClick={onEdit}>
+      <button className="back-button" onClick={onEdit} disabled={editDisabled}>
         ← Editar datos
       </button>
 
@@ -94,9 +94,7 @@ export default function OrderReview({ items, buyer, summary, onEdit, onConfirm }
         </div>
       </div>
 
-      <button type="button" className="checkout-form__submit" onClick={onConfirm}>
-        Confirmar compra
-      </button>
+      {children}
     </section>
   );
 }

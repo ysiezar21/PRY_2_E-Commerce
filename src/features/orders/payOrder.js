@@ -1,10 +1,13 @@
 import { processPayment, PAYMENT_RESULTS } from '../../services/paymentSandbox';
-import { applyPaymentResult } from './orderModel';
+import { applyPaymentResult, startPayment } from './orderModel';
 import { saveOrder } from './orderStorage';
 
 // Nunca lanza error: siempre devuelve la orden actualizada y guardada
 export async function payOrder(order, scenario) {
-  const request = { orderId: order.orderNumber, amount: order.total, currency: order.currency };
+  const pending = startPayment(order);
+  saveOrder(pending);
+
+  const request = { orderId: pending.orderNumber, amount: pending.total, currency: pending.currency };
 
   let response;
   try {
@@ -16,7 +19,7 @@ export async function payOrder(order, scenario) {
     };
   }
 
-  const updated = applyPaymentResult(order, response);
+  const updated = applyPaymentResult(pending, response);
   saveOrder(updated);
   return updated;
 }

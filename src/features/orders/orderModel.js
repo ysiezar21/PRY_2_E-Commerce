@@ -75,8 +75,16 @@ export function createOrder({ buyer, items, summary }) {
   };
 }
 
-// Actualiza la orden según la respuesta del sandbox y registra el intento.
-// Si el servicio falla, la orden sigue pendiente porque no hubo respuesta del cobro.
+export function startPayment(order) {
+  return { ...order, orderStatus: ORDER_STATUS.PENDING, paymentStatus: PAYMENT_STATUS.PENDING };
+}
+
+// Orden que el usuario dejó sin pagar para crear otra
+export function abandonOrder(order) {
+  return { ...order, orderStatus: ORDER_STATUS.FAILED };
+}
+
+// Si el servicio falla, la orden sigue pendiente porque no hubo respuesta del cobro
 export function applyPaymentResult(order, response) {
   const attempt = {
     transactionId: response.transactionId ?? null,

@@ -19,7 +19,8 @@ import CheckoutProgress from '../features/checkout/CheckoutProgress';
 import OrderReview from '../features/checkout/OrderReview';
 import PaymentSection, { PaymentAlert } from '../features/checkout/PaymentSection';
 import OrderConfirmation from '../features/checkout/OrderConfirmation';
-import { createOrder, ORDER_STATUS } from '../features/orders/orderModel';
+import { createOrder, abandonOrder, ORDER_STATUS } from '../features/orders/orderModel';
+import { saveOrder } from '../features/orders/orderStorage';
 import { payOrder } from '../features/orders/payOrder';
 import { PAYMENT_RESULTS } from '../services/paymentSandbox';
 
@@ -58,11 +59,21 @@ export default function CheckoutPage() {
 
   const summary = getCartSummary(items);
 
+  // Si cambian los datos, el próximo pago crea una orden nueva
+  const discardOrder = () => {
+    if (order) saveOrder(abandonOrder(order));
+    setOrder(null);
+  };
+
   const goToReview = (value) => {
-    // Si cambian los datos, el próximo pago crea una orden nueva
-    if (!value) setOrder(null);
+    if (!value) discardOrder();
     setReviewing(value);
     window.scrollTo(0, 0);
+  };
+
+  const backToCart = () => {
+    discardOrder();
+    navigate('/carrito');
   };
 
   const handlePay = async () => {
@@ -83,7 +94,7 @@ export default function CheckoutPage() {
     <div className="checkout-page">
       <div className="checkout-page__header">
         <h1>Finalizar compra</h1>
-        <button className="back-button" onClick={() => navigate('/carrito')} disabled={processing}>
+        <button className="back-button" onClick={backToCart} disabled={processing}>
           ← Volver al carrito
         </button>
       </div>

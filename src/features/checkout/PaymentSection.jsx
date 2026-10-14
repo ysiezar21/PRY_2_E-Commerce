@@ -26,7 +26,11 @@ export function PaymentAlert({ order }) {
       {order.paymentStatus === PAYMENT_STATUS.DECLINED && lastAttempt?.message && (
         <p>Motivo: {lastAttempt.message}</p>
       )}
-      <p className="payment-alert__order">Orden {order.orderNumber} pendiente de pago.</p>
+      <p className="payment-alert__order">Orden {order.orderNumber}</p>
+      <p className="order-states">
+        Estado de la orden: <strong>{order.orderStatus}</strong> · Estado del pago:{' '}
+        <strong>{order.paymentStatus}</strong>
+      </p>
     </div>
   );
 }

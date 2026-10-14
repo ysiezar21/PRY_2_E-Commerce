@@ -27,6 +27,11 @@ export default function OrderConfirmation({ order, onContinue }) {
         <dd>{payment.transactionId}</dd>
       </dl>
 
+      <p className="order-states">
+        Estado de la orden: <strong>{order.orderStatus}</strong> · Estado del pago:{' '}
+        <strong>{order.paymentStatus}</strong>
+      </p>
+
       <div className="order-review__block">
         <h3>Productos</h3>
         <div className="order-review__table-wrapper">

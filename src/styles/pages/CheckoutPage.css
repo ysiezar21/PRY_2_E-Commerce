@@ -328,9 +328,18 @@
   font-weight: 700;
 }
 
-.payment-alert__order {
+.payment-alert__order,
+.order-states {
   color: #6b6b73;
   font-size: 13px;
+}
+
+.order-states {
+  margin: 0 0 24px;
+}
+
+.payment-alert .order-states {
+  margin: 4px 0 0;
 }
 
 .payment-section__pay {

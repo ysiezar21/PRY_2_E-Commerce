@@ -8,6 +8,7 @@ import './components/CartDrawer.css';
 import './components/ConfirmDialog.css';
 import './components/CheckoutProgress.css';
 import './components/Footer.css';
+import './components/StatusMessage.css';
 
 import './components/SearchBar.css';
 import './components/FiltersSidebar.css';

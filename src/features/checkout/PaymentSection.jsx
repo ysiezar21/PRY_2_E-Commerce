@@ -11,6 +11,11 @@ const FAILURES = {
     title: 'Error del servicio de pagos',
     text: 'No pudimos comunicarnos con el servicio. Su compra no se ha completado; intente de nuevo en unos momentos.',
   },
+  // El pago se aprobó, pero la orden no se pudo crear: se devuelve el dinero
+  [PAYMENT_STATUS.REFUNDED]: {
+    title: 'No se pudo crear su orden',
+    text: 'Su pago fue aprobado, pero la orden no pudo completarse. Le devolvimos el dinero (reembolso), así que no se le cobró nada. Puede intentarlo de nuevo.',
+  },
 };
 
 export function PaymentAlert({ order }) {
@@ -18,6 +23,7 @@ export function PaymentAlert({ order }) {
   if (!failure) return null;
 
   const lastAttempt = order.paymentAttempts.at(-1);
+  const lastOrderAttempt = order.orderAttempts?.at(-1);
 
   return (
     <div className="payment-alert" role="alert">
@@ -25,6 +31,9 @@ export function PaymentAlert({ order }) {
       <p>{failure.text}</p>
       {order.paymentStatus === PAYMENT_STATUS.DECLINED && lastAttempt?.message && (
         <p>Motivo: {lastAttempt.message}</p>
+      )}
+      {order.paymentStatus === PAYMENT_STATUS.REFUNDED && lastOrderAttempt?.message && (
+        <p>Motivo: {lastOrderAttempt.message}</p>
       )}
       <p className="payment-alert__order">Orden {order.orderNumber}</p>
       <p className="order-states">

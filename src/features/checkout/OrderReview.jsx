@@ -8,6 +8,7 @@ export default function OrderReview({ items, buyer, summary, onEdit, editDisable
 
   return (
     <section className="order-review">
+      {/* Volver al formulario; se deshabilita mientras se procesa el pago. */}
       <button className="back-button" onClick={onEdit} disabled={editDisabled}>
         ← Editar datos
       </button>
@@ -27,6 +28,7 @@ export default function OrderReview({ items, buyer, summary, onEdit, editDisable
               </tr>
             </thead>
             <tbody>
+              {/* El subtotal por línea se deriva; el carrito no lo guarda. */}
               {items.map((item) => (
                 <tr key={item.id}>
                   <td>{item.name}</td>
@@ -53,6 +55,7 @@ export default function OrderReview({ items, buyer, summary, onEdit, editDisable
           </div>
           <div className="order-review__row">
             <dt>Envío</dt>
+            {/* Envío gratis se muestra como texto, no como ₡0. */}
             <dd>{shipping === 0 ? 'Gratis' : formatCRC(shipping)}</dd>
           </div>
           <div className="order-review__row order-review__row--total">
@@ -66,6 +69,7 @@ export default function OrderReview({ items, buyer, summary, onEdit, editDisable
         <div className="order-review__block">
           <h3>Comprador</h3>
           <dl className="order-review__data">
+            {/* trim() por si el usuario dejó espacios al escribir. */}
             <dt>Nombre</dt>
             <dd>{buyer.fullName.trim()}</dd>
             <dt>Correo</dt>
@@ -84,6 +88,7 @@ export default function OrderReview({ items, buyer, summary, onEdit, editDisable
             <dd>{buyer.canton}</dd>
             <dt>Dirección</dt>
             <dd>{buyer.address.trim()}</dd>
+            {/* Las indicaciones son opcionales: solo se muestran si hay texto. */}
             {buyer.notes.trim() && (
               <>
                 <dt>Indicaciones</dt>
@@ -94,6 +99,7 @@ export default function OrderReview({ items, buyer, summary, onEdit, editDisable
         </div>
       </div>
 
+      {/* children permite añadir el bloque de pago bajo la revisión. */}
       {children}
     </section>
   );

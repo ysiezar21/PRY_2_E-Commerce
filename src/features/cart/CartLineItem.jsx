@@ -4,8 +4,17 @@ import { getLineSubtotal } from './cartCalculations';
 import { formatCRC } from './formatCurrency';
 import ConfirmDialog from '../../components/ConfirmDialog';
 
+/**
+ * Línea individual del carrito.
+ *
+ * Muestra imagen, nombre, precio unitario, control de cantidad (+/−),
+ * subtotal y botón de eliminar. El eliminar pide confirmación antes de
+ * quitar el producto.
+ */
 export default function CartLineItem({ item }) {
   const { increment, decrement, removeItem } = useCart();
+
+  // confirming: si es true, se abre el ConfirmDialog antes de eliminar.
   const [confirming, setConfirming] = useState(false);
 
   return (
@@ -26,6 +35,7 @@ export default function CartLineItem({ item }) {
           type="button"
           className="qty-btn"
           onClick={() => decrement(item.id)}
+          // No bajar de 1: para quitar el producto hay que usar "Eliminar".
           disabled={item.quantity <= 1}
           aria-label={`Disminuir cantidad de ${item.name}`}
         >
@@ -36,6 +46,7 @@ export default function CartLineItem({ item }) {
           type="button"
           className="qty-btn"
           onClick={() => increment(item.id)}
+          // No superar el stock disponible del producto.
           disabled={item.quantity >= item.stock}
           aria-label={`Aumentar cantidad de ${item.name}`}
         >

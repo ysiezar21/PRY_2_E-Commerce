@@ -5,6 +5,8 @@ import { formatCRC } from '../cart/formatCurrency';
 // Tiene su propio menú Sandbox para simular el resultado del servicio de órdenes.
 // Aquí nunca se cobra: si la creación falla, el reintento no vuelve a pedir el pago.
 export default function OrderStep({ order, scenario, onScenarioChange, processing, onCreate }) {
+  // lastOrderAttempt: último intento de crear la orden (para detectar fallo previo).
+  // payment: último intento de pago, ya aprobado (de ahí sale el transactionId).
   const lastOrderAttempt = order.orderAttempts?.at(-1);
   const failedBefore = lastOrderAttempt?.status === ORDER_RESULTS.ERROR;
   const payment = order.paymentAttempts.at(-1);
@@ -12,6 +14,7 @@ export default function OrderStep({ order, scenario, onScenarioChange, processin
   return (
     <section className="order-review order-confirmation order-step">
       <div className="order-confirmation__header">
+        {/* Icono decorativo: el título ya comunica el estado. */}
         <span className="order-confirmation__icon" aria-hidden="true">✓</span>
         <div>
           <h2>Pago aprobado</h2>
@@ -19,6 +22,7 @@ export default function OrderStep({ order, scenario, onScenarioChange, processin
         </div>
       </div>
 
+      {/* Solo se muestra si un intento anterior falló y no se está reintentando. */}
       {failedBefore && !processing && (
         <div className="payment-alert" role="alert">
           <p className="payment-alert__title">Error del servicio de órdenes</p>
@@ -42,6 +46,7 @@ export default function OrderStep({ order, scenario, onScenarioChange, processin
       </p>
 
       <div className="payment-section">
+        {/* fieldset disabled: bloquea los radios mientras se crea la orden. */}
         <fieldset className="sandbox-box" disabled={processing}>
           <legend>Modo Sandbox</legend>
           <p className="sandbox-box__hint">
@@ -63,6 +68,7 @@ export default function OrderStep({ order, scenario, onScenarioChange, processin
           </div>
         </fieldset>
 
+        {/* aria-busy avisa a lectores de pantalla de que hay una operación en curso. */}
         <button
           type="button"
           className="checkout-form__submit payment-section__pay"
@@ -70,6 +76,7 @@ export default function OrderStep({ order, scenario, onScenarioChange, processin
           disabled={processing}
           aria-busy={processing}
         >
+          {/* Tres estados del botón: creando > reintento > acción inicial. */}
           {processing ? (
             <>
               <span className="spinner" aria-hidden="true" />

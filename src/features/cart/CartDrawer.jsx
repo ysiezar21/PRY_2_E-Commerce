@@ -5,10 +5,16 @@ import { getCartSubtotal } from './cartCalculations';
 import { formatCRC } from './formatCurrency';
 import CartLineItem from './CartLineItem';
 
-// Menú lateral: etapa intermedia entre el catálogo y la página del carrito.
+/**
+ * Menú lateral: etapa intermedia entre el catálogo y la página del carrito.
+ *
+ * Se cierra con la ✕, con clic en el overlay o con Escape.
+ */
 export default function CartDrawer({ open, onClose }) {
   const { items } = useCart();
 
+  // ===== Cerrar con Escape =====
+  // Solo activo mientras el drawer está abierto; limpia el listener al cerrar.
   useEffect(() => {
     if (!open) return;
     const handleKeyDown = (e) => {
@@ -26,6 +32,7 @@ export default function CartDrawer({ open, onClose }) {
 
       <aside
         className="cart-drawer"
+        // Diálogo modal: el resto de la página queda inerte para lectores de pantalla.
         role="dialog"
         aria-modal="true"
         aria-labelledby="cart-drawer-title"
@@ -37,6 +44,7 @@ export default function CartDrawer({ open, onClose }) {
             className="cart-drawer__close"
             onClick={onClose}
             aria-label="Cerrar"
+            // Lleva el foco al abrir para que Escape funcione sin tocar el ratón.
             autoFocus
           >
             ✕

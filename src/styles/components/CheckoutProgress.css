@@ -55,13 +55,34 @@
 
 /* ===== Responsive ===== */
 
-/* En pantallas angostas solo se muestra el nombre del paso actual */
 @media (max-width: 600px) {
-  .checkout-progress__item {
-    padding: 8px 10px;
+  .checkout-progress {
+    gap: 4px;
+    flex-wrap: wrap; /* si no caben en una fila, saltan a la siguiente */
   }
 
-  .checkout-progress__item:not(.checkout-progress__item--current) .checkout-progress__label {
-    display: none;
+  .checkout-progress__item {
+    flex: 1 1 0;        /* reparto equitativo y permite encogerse */
+    min-width: 0;       /* imprescindible para que el texto pueda partirse */
+    padding: 6px 8px;   /* cuadros más pequeños */
+    gap: 6px;
+    font-size: 11px;
+    line-height: 1.15;
+  }
+
+  .checkout-progress__number {
+    width: 20px;
+    height: 20px;
+    font-size: 11px;
+  }
+
+  /* Mostrar SIEMPRE la etiqueta, y permitir que se parta en varias líneas */
+  .checkout-progress__label {
+    display: block;
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere; /* rompe palabras largas si hace falta */
+    word-break: break-word;
+    hyphens: auto;
   }
 }

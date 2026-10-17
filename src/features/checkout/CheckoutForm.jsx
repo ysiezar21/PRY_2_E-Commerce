@@ -5,9 +5,12 @@ import { validateForm } from './checkoutValidation';
 // Formulario con los datos del comprador y la entrega.
 // El estado de los valores vive en CheckoutPage; aquí se validan y se editan.
 export default function CheckoutForm({ values, onChange, onSubmit }) {
+  // touched: campos que el usuario ya visitó (para no mostrar errores antes de tiempo).
+  // submitted: intento de envío; activa la visualización de todos los errores.
   const [touched, setTouched] = useState({});
   const [submitted, setSubmitted] = useState(false);
 
+  // La validación se recalcula en cada render a partir de los valores actuales.
   const errors = validateForm(values);
   const errorCount = Object.keys(errors).length;
 
@@ -42,17 +45,19 @@ export default function CheckoutForm({ values, onChange, onSubmit }) {
     onSubmit();
   };
 
-  // Atributos comunes de cada campo
+  // Atributos comunes de cada campo (id, value, handlers y aria de error).
   const fieldProps = (name) => ({
     id: `checkout-${name}`,
     name,
     value: values[name],
     onChange: handleChange,
     onBlur: handleBlur,
+    // aria-invalid + aria-describedby enlazan el campo con su mensaje de error.
     'aria-invalid': Boolean(errorFor(name)),
     'aria-describedby': errorFor(name) ? `checkout-${name}-error` : undefined,
   });
 
+  // role="alert" anuncia el error en cuanto aparece.
   const renderError = (name) =>
     errorFor(name) ? (
       <p id={`checkout-${name}-error`} className="checkout-form__error" role="alert">
@@ -60,8 +65,10 @@ export default function CheckoutForm({ values, onChange, onSubmit }) {
       </p>
     ) : null;
 
+  // noValidate: se desactiva la validación nativa del navegador; la maneja validateForm.
   return (
     <form className="checkout-form" onSubmit={handleSubmit} noValidate>
+      {/* Resumen de errores solo tras intentar enviar. */}
       {submitted && errorCount > 0 && (
         <p className="checkout-form__alert" role="alert">
           Revise los campos marcados, hay {errorCount} por corregir.
@@ -111,8 +118,10 @@ export default function CheckoutForm({ values, onChange, onSubmit }) {
 
           <div className="checkout-form__field">
             <label htmlFor="checkout-canton">Cantón</label>
+            {/* El cantón depende de la provincia: deshabilitado hasta elegir una. */}
             <select {...fieldProps('canton')} disabled={!values.province}>
               <option value="">Seleccione un cantón</option>
+              {/* Fallback a [] si la provincia no tiene cantones mapeados. */}
               {(LOCATIONS[values.province] ?? []).map((canton) => (
                 <option key={canton} value={canton}>
                   {canton}

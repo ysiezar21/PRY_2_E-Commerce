@@ -5,15 +5,24 @@
   flex-direction: column;
   background: var(--bg, #fff);
   border: 1px solid var(--border, #e5e4e7);
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden; /* recorta la imagen en las esquinas redondeadas */
-  transition: border-color 0.18s ease, transform 0.18s ease;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Efecto hover: borde morado y ligera elevación */
 .product-card:hover {
-  border-color: var(--accent, #5b2eff);
-  transform: translateY(-2px);
+  border-color: rgba(124, 92, 255, 0.55);
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px -10px rgba(91, 46, 255, 0.35);
+}
+
+.product-card img {
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover img {
+  transform: scale(1.04);
 }
 
 .product-card img {
@@ -81,16 +90,24 @@
 /* margin-top: auto empuja el precio al fondo de la tarjeta */
 .product-info .price {
   margin-top: auto;
-  padding-top: 4px;
-  font-size: 16px;
-  font-weight: 600;
+  padding-top: 6px;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: -0.3px;
   color: var(--accent-strong, #3b1fa0);
+  font-variant-numeric: tabular-nums;
 }
 
 /* Respeta la preferencia del usuario de reducir animaciones */
 @media (prefers-reduced-motion: reduce) {
-  .product-card {
+  .product-card,
+  .product-card img {
     transition: none;
+  }
+
+  .product-card:hover,
+  .product-card:hover img {
+    transform: none;
   }
 }
 
@@ -117,7 +134,7 @@
   }
 
   .product-info .price {
-    font-size: 13px;
+    font-size: 14px;
     padding-top: 2px;
   }
 

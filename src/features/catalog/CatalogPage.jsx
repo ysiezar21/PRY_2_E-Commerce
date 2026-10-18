@@ -1,32 +1,28 @@
 /**
  * Página principal del catálogo.
  *
- * Estructura:
- *   - InstantSearch provee el contexto de Algolia a todos los hijos.
- *   - Configure ajusta parámetros globales de la consulta (12 hits por página).
- *   - search-section: barra de búsqueda centrada.
- *   - results-section: layout de dos columnas (filtros + productos)
- *     que colapsa a una sola columna en móvil.
+ * El contexto de Algolia (InstantSearch) viene de MainLayout y la
+ * búsqueda está en el Navbar. Aquí solo van el título, los filtros,
+ * los productos y la paginación.
  */
 
-import { InstantSearch, Configure } from 'react-instantsearch';
-import { searchClient, indexName } from '../../config/algolia';
-import SearchBar from './components/SearchBar';
+import { Configure } from 'react-instantsearch';
 import FiltersSidebar from './components/FiltersSidebar';
 import ProductGrid from './components/ProductGrid';
 import Pagination from './components/Pagination';
 
 const CatalogPage = () => {
   return (
-    <InstantSearch searchClient={searchClient} indexName={indexName}>
+    <>
       {/* 12 resultados por página */}
       <Configure hitsPerPage={12} />
 
-      <div className="search-section">
-        <div className="search-hero">
-          <SearchBar />
-        </div>
-      </div>
+      <section className="catalog-intro">
+        <h1 className="catalog-title">Catálogo de Productos</h1>
+        <p className="catalog-subtitle">
+          Explora componentes, periféricos y equipamiento tecnológico con despacho a todo Costa Rica.
+        </p>
+      </section>
 
       <div className="results-section">
         <FiltersSidebar />
@@ -35,7 +31,7 @@ const CatalogPage = () => {
           <Pagination />
         </div>
       </div>
-    </InstantSearch>
+    </>
   );
 };
 

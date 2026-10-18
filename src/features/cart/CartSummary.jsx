@@ -1,6 +1,12 @@
 import { formatCRC } from './formatCurrency';
 
-export default function CartSummary({ subtotal, iva, shipping, total }) {
+/**
+ * Resumen de compra reutilizable (carrito y checkout).
+ *
+ * Recibe los importes ya calculados y los muestra formateados en CRC.
+ * `children` permite añadir CTAs debajo (botón de pagar, seguir comprando, etc.).
+ */
+export default function CartSummary({ subtotal, iva, shipping, total, children }) {
   return (
     <aside className="cart-summary">
       <h2>Resumen de compra</h2>
@@ -15,6 +21,7 @@ export default function CartSummary({ subtotal, iva, shipping, total }) {
         </div>
         <div className="cart-summary__row">
           <dt>Envío</dt>
+          {/* Envío gratis se muestra como texto, no como ₡0. */}
           <dd>{shipping === 0 ? 'Gratis' : formatCRC(shipping)}</dd>
         </div>
         <div className="cart-summary__row cart-summary__row--total">
@@ -22,6 +29,7 @@ export default function CartSummary({ subtotal, iva, shipping, total }) {
           <dd>{formatCRC(total)}</dd>
         </div>
       </dl>
+      {children}
     </aside>
   );
 }

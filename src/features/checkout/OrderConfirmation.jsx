@@ -1,16 +1,19 @@
 import { formatCRC } from '../cart/formatCurrency';
 
+// Fecha larga con hora, en formato costarricense (ej. "16 de octubre de 2026, 14:30").
 const formatDate = (iso) =>
   new Intl.DateTimeFormat('es-CR', { dateStyle: 'long', timeStyle: 'short' }).format(new Date(iso));
 
 // Se muestra solo con la orden confirmada; los datos salen de la orden guardada, no del carrito
 export default function OrderConfirmation({ order, onContinue }) {
   const { buyer, delivery } = order;
+  // El último intento de pago es el que dejó la orden confirmada.
   const payment = order.paymentAttempts.at(-1);
 
   return (
     <section className="order-review order-confirmation">
       <div className="order-confirmation__header">
+        {/* Icono decorativo: el texto ya comunica la confirmación. */}
         <span className="order-confirmation__icon" aria-hidden="true">✓</span>
         <div>
           <h2>¡Compra confirmada!</h2>
@@ -45,6 +48,7 @@ export default function OrderConfirmation({ order, onContinue }) {
               </tr>
             </thead>
             <tbody>
+              {/* Los importes ya vienen calculados en la orden guardada. */}
               {order.items.map((item) => (
                 <tr key={item.id}>
                   <td>{item.name}</td>
@@ -71,6 +75,7 @@ export default function OrderConfirmation({ order, onContinue }) {
           </div>
           <div className="order-review__row">
             <dt>Envío</dt>
+            {/* Envío gratis se muestra como texto, no como ₡0. */}
             <dd>{order.shippingCost === 0 ? 'Gratis' : formatCRC(order.shippingCost)}</dd>
           </div>
           <div className="order-review__row order-review__row--total">
@@ -102,6 +107,7 @@ export default function OrderConfirmation({ order, onContinue }) {
             <dd>{delivery.canton}</dd>
             <dt>Dirección</dt>
             <dd>{delivery.address}</dd>
+            {/* Las indicaciones son opcionales: solo se muestran si existen. */}
             {delivery.notes && (
               <>
                 <dt>Indicaciones</dt>

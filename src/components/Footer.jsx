@@ -1,5 +1,8 @@
 import logo from '../assets/techgrid-logo.png';
 
+/**
+ * Pie de página global con marca, eslogan y datos legales.
+ */
 export default function Footer() {
   return (
     <footer className="app-footer">

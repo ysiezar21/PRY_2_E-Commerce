@@ -8,6 +8,12 @@ export const CART_ACTIONS = {
 
 export const initialCartState = { items: [] };
 
+/**
+ * Reducer del carrito.
+ *
+ * Única fuente de verdad para mutar items: cada acción devuelve un nuevo
+ * estado sin tocar el anterior.
+ */
 // Cada item: { id, name, price, image, quantity }
 // El subtotal por línea NO se guarda: se deriva (price * quantity)
 // para evitar datos redundantes que puedan quedar desincronizados.
@@ -16,6 +22,7 @@ export function cartReducer(state, action) {
     case CART_ACTIONS.ADD_ITEM: {
       const { id, name, price, image, stock } = action.payload;
       const exists = state.items.some((item) => item.id === id);
+      // Si ya existe, suma 1 (respetando el stock); si no, lo agrega con quantity 1.
       return {
         items: exists
           ? state.items.map((item) =>
@@ -27,6 +34,7 @@ export function cartReducer(state, action) {
       };
     }
     case CART_ACTIONS.INCREMENT:
+      // Suma 1 sin superar el stock del producto.
       return {
         items: state.items.map((item) =>
           item.id === action.payload && item.quantity < item.stock

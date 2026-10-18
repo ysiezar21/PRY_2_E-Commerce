@@ -1,6 +1,8 @@
 import { LOCATIONS } from './costaRicaLocations';
 
-const NAME_REGEX = /^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ' -]+$/;
+// Regex del nombre: letras (con tildes y ñ), apóstrofo, espacio y guion.
+const NAME_REGEX = /^[A-Za-záéíóúüñ' -]+$/;
+// Regex de email: algo@algo.algo con al menos 2 caracteres en el TLD.
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
 // Deja solo los dígitos del teléfono y quita el prefijo +506 si viene
@@ -12,6 +14,7 @@ export function normalizePhone(value) {
 // Cada validador devuelve un mensaje de error, o '' si el campo es válido
 const validators = {
   fullName: (value) => {
+    // Normaliza espacios antes de validar (trim + colapsar espacios múltiples).
     const name = value.trim().replace(/\s+/g, ' ');
     if (!name) return 'Ingrese su nombre completo.';
     if (!NAME_REGEX.test(name)) return 'El nombre solo puede contener letras.';
@@ -28,7 +31,9 @@ const validators = {
 
   phone: (value) => {
     if (!value.trim()) return 'Ingrese su número de teléfono.';
+    // Primero comprueba que solo haya caracteres válidos de teléfono...
     if (!/^[\d\s+()-]+$/.test(value)) return 'El teléfono solo puede contener números.';
+    // ...y luego valida ya normalizado (sin +506) contra 8 dígitos que empiecen por 2-8.
     if (!/^[2-8]\d{7}$/.test(normalizePhone(value))) {
       return 'Ingrese un teléfono de 8 dígitos, por ejemplo 8888-8888.';
     }
@@ -37,6 +42,7 @@ const validators = {
 
   province: (value) => (value ? '' : 'Seleccione una provincia.'),
 
+  // canton necesita `form` para comprobar que pertenece a la provincia elegida.
   canton: (value, form) => {
     if (!form.province) return 'Primero seleccione una provincia.';
     if (!value) return 'Seleccione un cantón.';
@@ -52,6 +58,7 @@ const validators = {
     return '';
   },
 
+  // notes es opcional: solo valida el límite de longitud.
   notes: (value) => (value.length > 200 ? 'Las indicaciones no pueden superar los 200 caracteres.' : ''),
 };
 
@@ -60,6 +67,7 @@ export function validateForm(form) {
   const errors = {};
 
   Object.keys(validators).forEach((name) => {
+    // `?? ''` protege contra campos ausentes en el formulario.
     const message = validators[name](form[name] ?? '', form);
     if (message) errors[name] = message;
   });

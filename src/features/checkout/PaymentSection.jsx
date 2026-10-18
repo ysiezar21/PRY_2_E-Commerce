@@ -2,6 +2,8 @@ import { SANDBOX_SCENARIOS } from '../../services/paymentSandbox';
 import { PAYMENT_STATUS } from '../orders/orderModel';
 import { formatCRC } from '../cart/formatCurrency';
 
+// Mensajes por cada estado de pago fallido. REFUNDED cubre el caso
+// "pago ok, orden no creada" (se devuelve el dinero).
 const FAILURES = {
   [PAYMENT_STATUS.DECLINED]: {
     title: 'Pago rechazado',
@@ -19,6 +21,7 @@ const FAILURES = {
 };
 
 export function PaymentAlert({ order }) {
+  // Si el pago no está en estado fallido, no hay nada que alertar.
   const failure = order && FAILURES[order.paymentStatus];
   if (!failure) return null;
 
@@ -29,9 +32,11 @@ export function PaymentAlert({ order }) {
     <div className="payment-alert" role="alert">
       <p className="payment-alert__title">{failure.title}</p>
       <p>{failure.text}</p>
+      {/* Motivo del rechazo: viene del último intento de pago. */}
       {order.paymentStatus === PAYMENT_STATUS.DECLINED && lastAttempt?.message && (
         <p>Motivo: {lastAttempt.message}</p>
       )}
+      {/* Motivo del reembolso: viene del último intento de crear la orden. */}
       {order.paymentStatus === PAYMENT_STATUS.REFUNDED && lastOrderAttempt?.message && (
         <p>Motivo: {lastOrderAttempt.message}</p>
       )}
@@ -45,10 +50,12 @@ export function PaymentAlert({ order }) {
 }
 
 export default function PaymentSection({ scenario, onScenarioChange, total, order, processing, onPay }) {
+  // failed: hay un estado de pago fallido; cambia el texto del botón a "Reintentar".
   const failed = Boolean(order && FAILURES[order.paymentStatus]);
 
   return (
     <div className="payment-section">
+      {/* fieldset disabled: bloquea los radios mientras se procesa el pago. */}
       <fieldset className="sandbox-box" disabled={processing}>
         <legend>Modo Sandbox</legend>
         <p className="sandbox-box__hint">
@@ -70,6 +77,7 @@ export default function PaymentSection({ scenario, onScenarioChange, total, orde
         </div>
       </fieldset>
 
+      {/* aria-busy avisa a lectores de pantalla de que hay una operación en curso. */}
       <button
         type="button"
         className="checkout-form__submit payment-section__pay"
@@ -77,6 +85,7 @@ export default function PaymentSection({ scenario, onScenarioChange, total, orde
         disabled={processing}
         aria-busy={processing}
       >
+        {/* Tres estados del botón: procesando > reintento > pago inicial. */}
         {processing ? (
           <>
             <span className="spinner" aria-hidden="true" />

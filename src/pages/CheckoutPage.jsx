@@ -39,10 +39,11 @@ const EMPTY_FORM = {
   canton: '',
   address: '',
   notes: '',
+  acceptTerms: false,
 };
 
 // Rellena el formulario con los datos de una orden ya guardada
-const formFromOrder = ({ buyer, delivery }) => ({
+const formFromOrder = ({ buyer, delivery, termsAccepted }) => ({
   fullName: buyer.fullName,
   email: buyer.email,
   phone: buyer.phone,
@@ -50,6 +51,8 @@ const formFromOrder = ({ buyer, delivery }) => ({
   canton: delivery.canton,
   address: delivery.address,
   notes: delivery.notes,
+  // Las órdenes guardadas antes de este cambio no tienen termsAccepted
+  acceptTerms: termsAccepted?.accepted ?? false,
 });
 
 export default function CheckoutPage() {

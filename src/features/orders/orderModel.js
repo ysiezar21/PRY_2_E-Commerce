@@ -85,6 +85,11 @@ export function createOrder({ buyer, items, summary }) {
     total: roundMoney(summary.total),
     orderStatus: ORDER_STATUS.PENDING,
     paymentStatus: PAYMENT_STATUS.PENDING,
+    termsAccepted: {
+      accepted: buyer.acceptTerms === true,
+      acceptedAt: now.toISOString(),
+      version: '1.0',
+    },
     paymentAttempts: [],
     orderAttempts: [],
   };

@@ -82,6 +82,38 @@
   justify-content: center;
 }
 
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Mismo estilo de pastilla que el botón del carrito */
+.navbar__help {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 999px;
+  transition: background 0.18s ease, border-color 0.18s ease;
+}
+
+.navbar__help:hover {
+  background: rgba(91, 46, 255, 0.35);
+  border-color: #5b2eff;
+}
+
+.navbar__help:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
 /* ===== Responsive ===== */
 
 @media (max-width: 900px) {
@@ -100,7 +132,7 @@
   .navbar {
     grid-template-columns: 1fr auto;
     grid-template-areas:
-      "brand cart"
+      "brand actions"
       "search search";
     row-gap: 10px;
     padding: 10px 14px 14px;
@@ -108,7 +140,16 @@
 
   .navbar__brand { grid-area: brand; }
   .navbar__search { grid-area: search; }
-  .cart-indicator { grid-area: cart; }
+  .navbar__actions { grid-area: actions; }
+
+  /* En celular solo el ícono, para no amontonarse con el carrito */
+  .navbar__help {
+    padding: 7px;
+  }
+
+  .navbar__help-text {
+    display: none;
+  }
 
   .navbar__logo {
     height: 60px;

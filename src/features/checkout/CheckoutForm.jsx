@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { LOCATIONS, PROVINCES } from './costaRicaLocations';
 import { validateForm } from './checkoutValidation';
+import { Link } from 'react-router-dom';
 
 // Formulario con los datos del comprador y la entrega.
 // El estado de los valores vive en CheckoutPage; aquí se validan y se editan.
@@ -18,8 +19,8 @@ export default function CheckoutForm({ values, onChange, onSubmit }) {
   const errorFor = (name) => (touched[name] || submitted ? errors[name] : '');
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    const next = { ...values, [name]: value };
+    const { name, type, checked, value } = e.target;
+    const next = { ...values, [name]: type === 'checkbox' ? checked : value };
 
     // Al cambiar de provincia el cantón elegido antes ya no aplica
     if (name === 'province') next.canton = '';
@@ -147,6 +148,29 @@ export default function CheckoutForm({ values, onChange, onSubmit }) {
           {renderError('notes')}
         </div>
       </fieldset>
+
+
+      <div className="checkout-form__field checkout-form__terms">
+        <label htmlFor="checkout-acceptTerms">
+          <input
+            id="checkout-acceptTerms"
+            name="acceptTerms"
+            type="checkbox"
+            checked={values.acceptTerms}
+            onChange={handleChange}
+            onBlur={handleBlur}
+            aria-invalid={Boolean(errorFor('acceptTerms'))}
+            aria-describedby={errorFor('acceptTerms') ? 'checkout-acceptTerms-error' : undefined}
+          />
+          <span>
+            He leído y acepto los{' '}
+            <Link to="/terminos" target="_blank" rel="noopener noreferrer">
+              términos y condiciones
+            </Link>
+          </span>
+        </label>
+        {renderError('acceptTerms')}
+      </div>
 
       <button type="submit" className="checkout-form__submit">
         Continuar a revisión

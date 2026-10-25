@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
 import logo from '../assets/techgrid-logo.png';
+import { INFO_PAGES } from '../features/info/infoPages';
 
 /**
- * Pie de página global con marca, eslogan y datos legales.
+ * Pie de página global con marca, eslogan, enlaces a las políticas y datos legales.
  */
 export default function Footer() {
   return (
@@ -10,6 +12,12 @@ export default function Footer() {
         <img src={logo} alt="TechGrid Distributions" className="app-footer__logo" />
         <p className="app-footer__slogan">Red Nacional de Suministros y Tecnología</p>
       </div>
+
+      <nav className="app-footer__links" aria-label="Información comercial">
+        {INFO_PAGES.map(({ to, title }) => (
+          <Link key={to} to={to}>{title}</Link>
+        ))}
+      </nav>
 
       <div className="app-footer__legal">
         <p className="app-footer__copyright">

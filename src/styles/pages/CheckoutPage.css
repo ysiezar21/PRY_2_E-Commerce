@@ -424,3 +424,28 @@
     max-width: none;
   }
 }
+
+.checkout-form__terms label {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+/* Anula los estilos de "campo de texto" que heredan todos los inputs del formulario */
+.checkout-form__field.checkout-form__terms input[type='checkbox'] {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  margin: 2px 0 0;
+  padding: 0;
+  border-radius: 4px;
+  accent-color: #5b2eff;
+  cursor: pointer;
+}
+
+.checkout-form__terms a {
+  color: var(--accent);
+  font-weight: 600;
+}

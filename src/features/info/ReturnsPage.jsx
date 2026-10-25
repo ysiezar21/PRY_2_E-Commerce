@@ -32,7 +32,7 @@ export default function ReturnsPage() {
       <section>
         <h2>Procedimiento</h2>
         <ol>
-          <li>Escriba a nuestro correo de soporte indicando su número de orden y el motivo.</li>
+          <li>Escriba a soporte@techgrid.cr indicando su número de orden y el motivo.</li>
           <li>Evaluamos la solicitud y respondemos en un máximo de 3 días hábiles.</li>
           <li>Si se aprueba, coordinamos el retiro o la entrega del producto.</li>
           <li>Tras revisar el producto, reembolsamos el monto por el mismo medio de pago.</li>

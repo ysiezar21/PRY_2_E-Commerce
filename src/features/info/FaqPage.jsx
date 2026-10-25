@@ -7,7 +7,7 @@ const FAQS = [
   { topic: 'Envíos', q: '¿Cuánto tarda mi pedido?', a: 'De 1 a 3 días hábiles en la GAM y de 3 a 5 en el resto del país.' },
   { topic: 'Envíos', q: '¿Cuánto cuesta el envío?', a: 'El 3% del subtotal (mínimo ₡2.500). Es gratis desde ₡400.000.' },
   { topic: 'Devoluciones', q: '¿Puedo devolver un producto?', a: 'Sí, dentro de 8 días naturales, sin uso y en su empaque original. Vea la Política de Devoluciones.' },
-  { topic: 'Atención al cliente', q: '¿Cómo contacto a soporte?', a: 'Escríbanos con su número de orden y le responderemos en un máximo de 3 días hábiles.' },
+  { topic: 'Atención al cliente', q: '¿Cómo contacto a soporte?', a: 'Escríbanos a soporte@techgrid.cr con su número de orden, de lunes a viernes de 8 a. m. a 5 p. m. Le responderemos en un máximo de 3 días hábiles.' },
 ];
 
 export default function FaqPage() {

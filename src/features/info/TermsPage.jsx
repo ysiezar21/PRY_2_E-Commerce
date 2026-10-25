@@ -21,6 +21,7 @@ export default function TermsPage() {
           <li>Los precios se muestran en colones costarricenses (CRC). El IVA (13%) y el envío se detallan en el resumen de compra.</li>
           <li>La compra se confirma cuando el pago es aprobado y la orden queda creada.</li>
           <li>La disponibilidad depende del inventario al momento de la compra.</li>
+          <li>Las compras empresariales o al por mayor siguen las condiciones B2B (precio mayorista y pedido mínimo) indicadas en cada producto.</li>
         </ul>
       </section>
 

@@ -18,7 +18,7 @@ export default function CheckoutForm({ values, onChange, onSubmit }) {
   // Un error se muestra cuando el usuario ya salió del campo o intentó continuar
   const errorFor = (name) => (touched[name] || submitted ? errors[name] : '');
 
-    const handleChange = (e) => {
+  const handleChange = (e) => {
     const { name, type, checked, value } = e.target;
     const next = { ...values, [name]: type === 'checkbox' ? checked : value };
 
@@ -164,7 +164,7 @@ export default function CheckoutForm({ values, onChange, onSubmit }) {
           />
           <span>
             He leído y acepto los{' '}
-            <Link to="/informacion" target="_blank" rel="noopener noreferrer">
+            <Link to="/terminos" target="_blank" rel="noopener noreferrer">
               términos y condiciones
             </Link>
           </span>

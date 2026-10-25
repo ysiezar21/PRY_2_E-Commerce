@@ -60,6 +60,7 @@ const validators = {
 
   // notes es opcional: solo valida el límite de longitud.
   notes: (value) => (value.length > 200 ? 'Las indicaciones no pueden superar los 200 caracteres.' : ''),
+  acceptTerms: (value) => value ? '' : 'Debe aceptar los términos y condiciones para continuar.',
 };
 
 // Devuelve solo los campos con error: { campo: mensaje }

@@ -9,6 +9,9 @@
  *   - "/producto/:id"  → detalle de un producto.
  *   - "/carrito"       → carrito de compras.
  *   - "/checkout"      → proceso de compra.
+ *   - "/informacion"   → centro de información (índice de políticas).
+ *   - "/terminos", "/devoluciones", "/envios", "/privacidad", "/faq"
+ *                      → páginas informativas.
  *   - cualquier otra   → página 404.
  *
  * Las rutas van dentro de un ErrorBoundary: si una página falla, se muestra
@@ -27,6 +30,12 @@ import ProductDetail from "./ProductDetail";
 import CartPage from "./CartPage";
 import CheckoutPage from "./CheckoutPage";
 import NotFoundPage from "./NotFoundPage";
+import InfoHubPage from "../features/info/InfoHubPage";
+import TermsPage from "../features/info/TermsPage";
+import ReturnsPage from "../features/info/ReturnsPage";
+import ShippingPage from "../features/info/ShippingPage";
+import PrivacyPage from "../features/info/PrivacyPage";
+import FaqPage from "../features/info/FaqPage";
 
 export default function MainLayout() {
   const { pathname } = useLocation();
@@ -42,6 +51,12 @@ export default function MainLayout() {
               <Route path="/producto/:id" element={<ProductDetail />} />
               <Route path="/carrito" element={<CartPage />} />
               <Route path="/checkout" element={<CheckoutPage />} />
+              <Route path="/informacion" element={<InfoHubPage />} />
+              <Route path="/terminos" element={<TermsPage />} />
+              <Route path="/devoluciones" element={<ReturnsPage />} />
+              <Route path="/envios" element={<ShippingPage />} />
+              <Route path="/privacidad" element={<PrivacyPage />} />
+              <Route path="/faq" element={<FaqPage />} />
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </ErrorBoundary>

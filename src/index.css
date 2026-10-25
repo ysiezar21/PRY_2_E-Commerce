@@ -149,3 +149,8 @@ html,
 body {
   overflow-x: hidden;
 }
+
+/* Reserva el espacio de la barra de scroll para que el contenido no se mueva entre páginas */
+html {
+  scrollbar-gutter: stable;
+}

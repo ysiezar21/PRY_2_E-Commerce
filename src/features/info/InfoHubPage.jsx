@@ -1,9 +1,11 @@
 import { Link } from 'react-router-dom';
 import { INFO_PAGES } from './infoPages';
+import BackButton from './BackButton';
 
 export default function InfoHubPage() {
   return (
     <section className="info-page">
+      <BackButton />
       <h1>Centro de información</h1>
       <p className="info-page__intro">
         Consulte las condiciones y políticas de TechGrid Distributions.

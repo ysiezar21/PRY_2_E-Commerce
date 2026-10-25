@@ -20,12 +20,6 @@
 
 .info-page__intro { margin: 0 0 8px; }
 
-.info-page__back {
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 600;
-}
-.info-page__back:hover { text-decoration: underline; }
 
 .info-page ul,
 .info-page ol { padding-left: 22px; }

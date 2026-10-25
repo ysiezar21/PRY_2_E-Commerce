@@ -1,9 +1,9 @@
-import { Link } from 'react-router-dom';
+import BackButton from './BackButton';
 
 export default function InfoPageLayout({ title, intro, children }) {
   return (
     <article className="info-page">
-      <Link to="/informacion" className="info-page__back">← Centro de información</Link>
+      <BackButton />
       <h1>{title}</h1>
       {intro && <p className="info-page__intro">{intro}</p>}
       {children}
